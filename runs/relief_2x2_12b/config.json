@@ -1,0 +1,98 @@
+{
+ "name": "relief_2x2_12b",
+ "model": "google/gemma-3-12b-it",
+ "gen_mode": "int8",
+ "measure_mode": "int8",
+ "ab_mode": "int8",
+ "chunk": 1024,
+ "batch_size": 8,
+ "max_new_tokens": 4096,
+ "compact_max_new_tokens": 4096,
+ "seed": 0,
+ "continue": "fixed",
+ "readout": {
+  "vector": "vectors/pain_gemma3_12b_int8.pt"
+ },
+ "judge": {
+  "stop_rule": true,
+  "second_fraction": 0.15
+ },
+ "pools": {
+  "impossible": {
+   "n": 24,
+   "seed": 5
+  }
+ },
+ "conversations": {
+  "kind": "arms",
+  "arms": [
+   {
+    "name": "N0",
+    "task": "impossible",
+    "profile": "CCCCCCC",
+    "wording": "fixed",
+    "brevity": true,
+    "n": 24
+   },
+   {
+    "name": "N0L",
+    "task": "impossible",
+    "profile": "CCCCCCL",
+    "wording": "fixed",
+    "brevity": true,
+    "n": 24
+   },
+   {
+    "name": "R6C",
+    "task": "impossible",
+    "profile": "RRRRRRC",
+    "wording": "fixed",
+    "brevity": true,
+    "n": 24
+   },
+   {
+    "name": "R6L",
+    "task": "impossible",
+    "profile": "RRRRRRL",
+    "wording": "fixed",
+    "brevity": true,
+    "n": 24
+   }
+  ]
+ },
+ "ab": {
+  "arm_pairs": [
+   [
+    "N0L",
+    "N0"
+   ],
+   [
+    "R6L",
+    "R6C"
+   ]
+  ],
+  "sources": [
+   "transcript",
+   "summary"
+  ],
+  "questions": [
+   "repeat",
+   "happier"
+  ]
+ },
+ "analysis": {
+  "gate_arms": [],
+  "effects": [
+   [
+    "N0L",
+    "N0",
+    "pleasant"
+   ],
+   [
+    "R6L",
+    "R6C",
+    "pleasant"
+   ]
+  ]
+ }
+}

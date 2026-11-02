@@ -1,0 +1,674 @@
+{
+ "P3": {
+  "digit_by_channel": {
+   "ctx_end": {
+    "reads": 480,
+    "share": 1.0
+   },
+   "ser": {
+    "reads": 480,
+    "share": 1.0
+   },
+   "state": {
+    "reads": 720,
+    "share": 1.0
+   },
+   "sum": {
+    "reads": 1440,
+    "share": 1.0
+   }
+  },
+  "digit_share": 1.0,
+  "n_digit": 3120,
+  "n_yn": 1440,
+  "pass": true,
+  "yn_by_item": {
+   "checks/correct": {
+    "reads": 160,
+    "share": 1.0
+   },
+   "checks/pleased": {
+    "reads": 160,
+    "share": 1.0
+   },
+   "checks/sarcastic": {
+    "reads": 160,
+    "share": 1.0
+   },
+   "checks/solvable": {
+    "reads": 160,
+    "share": 0.9875
+   },
+   "checks/wants": {
+    "reads": 160,
+    "share": 1.0
+   },
+   "choice/again": {
+    "reads": 160,
+    "share": 1.0
+   },
+   "choice/skip": {
+    "reads": 160,
+    "share": 1.0
+   },
+   "forced_q": {
+    "reads": 80,
+    "share": 1.0
+   },
+   "stop": {
+    "reads": 240,
+    "share": 1.0
+   }
+  },
+  "yn_share": 0.9986111111111111
+ },
+ "amplification": {
+  "claimed": true,
+  "label": null,
+  "text": "the summary moved more than a full-transcript re-read of the same conversation did"
+ },
+ "arms": [
+  "N",
+  "B6",
+  "D",
+  "V"
+ ],
+ "closure": "The closure effect replicates in Qwen/Qwen3.8-27B",
+ "complete": true,
+ "exclusions": {
+  "missing": {},
+  "missing_conversation": [],
+  "truncated_replies": {
+   "B6-00": 1,
+   "B6-02": 1,
+   "B6-03": 1,
+   "B6-05": 1,
+   "B6-07": 1,
+   "B6-10": 1,
+   "B6-12": 1,
+   "B6-13": 1,
+   "B6-14": 1,
+   "B6-15": 1,
+   "B6-16": 1,
+   "B6-17": 1,
+   "B6-18": 1,
+   "B6-19": 1,
+   "B6-23": 1,
+   "B6-27": 1,
+   "B6-31": 1,
+   "B6-33": 1,
+   "B6-35": 1,
+   "B6-36": 1,
+   "B6-37": 1,
+   "B6-39": 1,
+   "D-00": 1,
+   "D-02": 1,
+   "D-03": 1,
+   "D-05": 1,
+   "D-07": 1,
+   "D-10": 1,
+   "D-12": 1,
+   "D-13": 1,
+   "D-14": 1,
+   "D-15": 1,
+   "D-16": 1,
+   "D-17": 1,
+   "D-18": 1,
+   "D-19": 1,
+   "D-23": 1,
+   "D-27": 1,
+   "D-31": 1,
+   "D-33": 1,
+   "D-35": 1,
+   "D-36": 1,
+   "D-37": 1,
+   "D-39": 1,
+   "N-00": 1,
+   "N-02": 1,
+   "N-03": 1,
+   "N-05": 1,
+   "N-07": 1,
+   "N-10": 1,
+   "N-12": 1,
+   "N-13": 1,
+   "N-14": 1,
+   "N-15": 1,
+   "N-16": 1,
+   "N-17": 1,
+   "N-18": 1,
+   "N-19": 1,
+   "N-23": 1,
+   "N-27": 1,
+   "N-31": 1,
+   "N-33": 1,
+   "N-35": 1,
+   "N-36": 1,
+   "N-37": 1,
+   "N-39": 1,
+   "V-00": 1,
+   "V-02": 1,
+   "V-03": 1,
+   "V-05": 1,
+   "V-07": 1,
+   "V-10": 1,
+   "V-12": 1,
+   "V-13": 1,
+   "V-14": 1,
+   "V-15": 1,
+   "V-16": 1,
+   "V-17": 1,
+   "V-18": 1,
+   "V-19": 1,
+   "V-23": 1,
+   "V-27": 1,
+   "V-31": 1,
+   "V-33": 1,
+   "V-35": 1,
+   "V-36": 1,
+   "V-37": 1,
+   "V-39": 1
+  },
+  "truncated_summaries": {
+   "B6-03": [
+    "s0"
+   ],
+   "B6-05": [
+    "s1"
+   ],
+   "B6-08": [
+    "s0"
+   ],
+   "B6-09": [
+    "s0"
+   ],
+   "B6-10": [
+    "s1",
+    "s2"
+   ],
+   "B6-13": [
+    "s2"
+   ],
+   "B6-17": [
+    "s0",
+    "s2"
+   ],
+   "B6-21": [
+    "s0",
+    "s2"
+   ],
+   "B6-23": [
+    "s1"
+   ],
+   "B6-24": [
+    "s0"
+   ],
+   "B6-25": [
+    "s1"
+   ],
+   "B6-26": [
+    "s2"
+   ],
+   "B6-29": [
+    "s1"
+   ],
+   "B6-30": [
+    "s2"
+   ],
+   "B6-33": [
+    "s0"
+   ],
+   "B6-34": [
+    "s1"
+   ],
+   "B6-39": [
+    "s1",
+    "s2"
+   ],
+   "D-19": [
+    "s0"
+   ]
+  }
+ },
+ "family": {
+  "DiD D-C": {
+   "contrast": "D-C",
+   "decisive": -1,
+   "holm_input": 0.0002999850007499625,
+   "incomplete": false,
+   "missing": {
+    "C": 0.0,
+    "D": 0.0
+   },
+   "p_holm": 0.000599970001499925,
+   "p_star": 0.0002999850007499625,
+   "rows": {
+    "tau1": {
+     "ci": [
+      -0.4271982968681389,
+      -0.13006397088368732
+     ],
+     "ci90": [
+      -0.40667041639486956,
+      -0.1507001452975804
+     ],
+     "dec": -1,
+     "est": -0.26797376738654244,
+     "hl": -0.26797376738654244,
+     "kind": "hl",
+     "mean": -0.268817800614569,
+     "n": 40,
+     "p": 0.0002999850007499625,
+     "sign": -1,
+     "undefined": 0
+    },
+    "tau4": {
+     "ci": [
+      -0.29641242270315105,
+      -0.14084954264282723
+     ],
+     "ci90": [
+      -0.27783328251295714,
+      -0.15502240135279172
+     ],
+     "dec": -1,
+     "est": -0.21567001394329594,
+     "hl": -0.21567001394329594,
+     "kind": "hl",
+     "mean": -0.21327941303092599,
+     "n": 40,
+     "p": 9.99950002499875e-05,
+     "sign": -1,
+     "undefined": 0
+    }
+   },
+   "sign": -1,
+   "uncalibrated": false
+  },
+  "O1 D-C": {
+   "contrast": "D-C",
+   "decisive": -1,
+   "holm_input": 9.99950002499875e-05,
+   "incomplete": false,
+   "missing": {
+    "C": 0.0,
+    "D": 0.0
+   },
+   "p_holm": 0.00039998000099995,
+   "p_star": 9.99950002499875e-05,
+   "rows": {
+    "tau1": {
+     "ci": [
+      -0.661896746026145,
+      -0.3820745017793442
+     ],
+     "ci90": [
+      -0.641361157099406,
+      -0.40324098401599456
+     ],
+     "dec": -1,
+     "est": -0.5242730511559383,
+     "hl": -0.5242730511559383,
+     "kind": "hl",
+     "mean": -0.5139945420953963,
+     "n": 40,
+     "p": 9.99950002499875e-05,
+     "sign": -1,
+     "undefined": 0
+    },
+    "tau4": {
+     "ci": [
+      -0.3639833541927668,
+      -0.21693286434246034
+     ],
+     "ci90": [
+      -0.34950059006249484,
+      -0.22532515352550447
+     ],
+     "dec": -1,
+     "est": -0.2865741394677936,
+     "hl": -0.2865741394677936,
+     "kind": "hl",
+     "mean": -0.28617898534127734,
+     "n": 40,
+     "p": 9.99950002499875e-05,
+     "sign": -1,
+     "undefined": 0
+    }
+   },
+   "sign": -1,
+   "uncalibrated": false
+  },
+  "O1 V-D": {
+   "contrast": "V-D",
+   "decisive": -1,
+   "holm_input": 9.99950002499875e-05,
+   "incomplete": false,
+   "missing": {
+    "D": 0.0,
+    "V": 0.0
+   },
+   "p_holm": 0.00039998000099995,
+   "p_star": 9.99950002499875e-05,
+   "rows": {
+    "tau1": {
+     "ci": [
+      -0.46894183423784047,
+      -0.21731336017449698
+     ],
+     "ci90": [
+      -0.45198288460572567,
+      -0.24106662041611157
+     ],
+     "dec": -1,
+     "est": -0.345662706428104,
+     "hl": -0.345662706428104,
+     "kind": "hl",
+     "mean": -0.347570225265291,
+     "n": 40,
+     "p": 9.99950002499875e-05,
+     "sign": -1,
+     "undefined": 0
+    },
+    "tau4": {
+     "ci": [
+      -0.3200751590707761,
+      -0.16557523766876706
+     ],
+     "ci90": [
+      -0.3043333956976644,
+      -0.17905596990609587
+     ],
+     "dec": -1,
+     "est": -0.24051336920500033,
+     "hl": -0.24051336920500033,
+     "kind": "hl",
+     "mean": -0.2386642089757604,
+     "n": 40,
+     "p": 9.99950002499875e-05,
+     "sign": -1,
+     "undefined": 0
+    }
+   },
+   "sign": -1,
+   "uncalibrated": false
+  },
+  "forced keeping D-C": {
+   "contrast": "D-C",
+   "decisive": 0,
+   "holm_input": 0.27808609569521525,
+   "incomplete": false,
+   "missing": {
+    "C": 0.0,
+    "D": 0.0
+   },
+   "p_holm": 0.27808609569521525,
+   "p_star": 0.27808609569521525,
+   "rows": {
+    "tau1": {
+     "ci": [
+      -0.11500000000000002,
+      0.029999999999999992
+     ],
+     "ci90": [
+      -0.10500000000000001,
+      0.01999999999999999
+     ],
+     "dec": 0,
+     "est": -0.04,
+     "hl": 0.0,
+     "kind": "mean",
+     "mean": -0.04,
+     "n": 40,
+     "p": 0.27808609569521525,
+     "sign": -1,
+     "undefined": 0
+    }
+   },
+   "sign": -1,
+   "uncalibrated": false
+  }
+ },
+ "forced_keep_D_rate": 0.8150000000000001,
+ "forced_keep_calibrated": true,
+ "judge": {
+  "backend": "anthropic",
+  "client": "anthropic 1.15.0",
+  "effort": "medium",
+  "note": "forced keeping is judge-coded by the Claude judge",
+  "primary": "claude-sonnet-5-5",
+  "served": [
+   "claude-sonnet-5-5"
+  ]
+ },
+ "label_note": "replication: per model, never pooled",
+ "model": "Qwen/Qwen3.8-27B",
+ "name": "endings_r3_qwen38_27b",
+ "planned": 160,
+ "prefix_hashes": {
+  "0": "c8e58c70cd0452e3d2b10d013a93885d56fb474f",
+  "1": "123f87dd74f5aee48069d07f53888db86aa9e9b2",
+  "10": "14426d7ad7b83aea41442e9ab243f607fb0cf04e",
+  "11": "a1da6b8ba8f5fc8085b8fb9e283588c27c8d189c",
+  "12": "e8e9414e4d19b49126bd73badab623d9061df09e",
+  "13": "90c652c1f410819a2e570d73afacb1f75f997276",
+  "14": "f3b4a55f4a630252d580e26f753982ab1fb6f187",
+  "15": "899734c35f9aeb587b6c12ff86c53ece08a8fa8d",
+  "16": "4ff34253aa0550204ab2f51f04f40c9bc10a6fbd",
+  "17": "42ed688c891dc4948b45c2ce86a37f9ade7b4666",
+  "18": "4fbb7c8d2d975f27c0a84c9dec6d053333cd8d2a",
+  "19": "64eab3cdeb1747aec079403ac7e14ef7da04f08f",
+  "2": "fb0781266a48634d2a4144aefffd5958220e38f7",
+  "20": "0ccad778aae682e8ec610155bab94b709ad6d69f",
+  "21": "0579b281fb5cd845d360937476c4c54863edaf4b",
+  "22": "8c302e763c18b4a596db8971e9d444345beb4e5d",
+  "23": "cd96cea0ec305b1b2c10ca474791cd554f04669d",
+  "24": "6ac3f750cfa047deaa7d177624669656a7c81633",
+  "25": "85134013d534d91532bdde0cc88e66f218a13525",
+  "26": "c9828995f02aba058086022a4ad0c80507accf2f",
+  "27": "dc017454cdba1540518c21ab93b2f76b7bce3f42",
+  "28": "ed75153f4432ecbdfa169d0d212f8003fe78ef7f",
+  "29": "6f4eb61f558b1c05f8b7a22b09a02d9157225244",
+  "3": "2d1199a2ff09138b0611be7d3c98f80b4a45b911",
+  "30": "de75bbc6852d1f5db8ae6f83186fab4ffba924b2",
+  "31": "740900fd94960083e095c6b0032e06be2116f527",
+  "32": "ed5c74719f520581b89afe42ac5a39cb9bd0fe6e",
+  "33": "48e7688aae83476a737264692b18c0933293a5da",
+  "34": "16aba33686aa4386272bed8bc68e0d83cf2edd39",
+  "35": "5180ae454196e4772bd28d381094633da71f3361",
+  "36": "b79fbc6651fa39a473f3e78cddf3466e54a93fc1",
+  "37": "124bca29bd6f5f94c8fa11412b4c68f4f28332d4",
+  "38": "c6b6fc798be26311c84dee29ac762cb510dafc95",
+  "39": "3cd2443c3aab06f58653b9ac7b1d1abaf5f0a6e4",
+  "4": "c0d119a8fc8cf093a8935aa018e916b5bacadce0",
+  "5": "1d281ba603a432347bc50963f5a5990b8ae3ea1e",
+  "6": "6acbb24f22968893b4342288b68a794437faf025",
+  "7": "e8203ac6c8776be900f5f918777c74013dada4f3",
+  "8": "c58f0dfc103e3b092a1b3c4e011a179ed54a120f",
+  "9": "b869878c8969355e76029f6bab40a46947b6e164"
+ },
+ "responsiveness": {
+  "rows": {
+   "B6-N@1": {
+    "ci": [
+     0.6537354906400045,
+     0.8789497481452095
+    ],
+    "ci90": [
+     0.6734689209196303,
+     0.8583799368805356
+    ],
+    "dec": 1,
+    "direction": "lower is better",
+    "est": 0.7512355248133341,
+    "hl": 0.7512355248133341,
+    "kind": "hl",
+    "mean": 0.7642673254013062,
+    "n": 40,
+    "sign": 1,
+    "undefined": 0
+   },
+   "B6-N@4": {
+    "ci": [
+     0.39221747054670797,
+     0.5112481366990524
+    ],
+    "ci90": [
+     0.40197872566642745,
+     0.5014707188920356
+    ],
+    "dec": 1,
+    "direction": "lower is better",
+    "est": 0.44978658250458425,
+    "hl": 0.44978658250458425,
+    "kind": "hl",
+    "mean": 0.4479659881142292,
+    "n": 40,
+    "sign": 1,
+    "undefined": 0
+   },
+   "D-C@1": {
+    "ci": [
+     -0.661896746026145,
+     -0.3820745017793442
+    ],
+    "ci90": [
+     -0.641361157099406,
+     -0.40324098401599456
+    ],
+    "dec": -1,
+    "direction": "lower is better",
+    "est": -0.5242730511559383,
+    "hl": -0.5242730511559383,
+    "kind": "hl",
+    "mean": -0.5139945420953963,
+    "n": 40,
+    "sign": -1,
+    "undefined": 0
+   },
+   "D-C@4": {
+    "ci": [
+     -0.3639833541927668,
+     -0.21693286434246034
+    ],
+    "ci90": [
+     -0.34950059006249484,
+     -0.22532515352550447
+    ],
+    "dec": -1,
+    "direction": "lower is better",
+    "est": -0.2865741394677936,
+    "hl": -0.2865741394677936,
+    "kind": "hl",
+    "mean": -0.28617898534127734,
+    "n": 40,
+    "sign": -1,
+    "undefined": 0
+   }
+  },
+  "unresponsive": false
+ },
+ "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+ "sampling": {
+  "do_sample": true,
+  "min_p": 0.0,
+  "presence_penalty": 1.5,
+  "repetition_penalty": 1.0,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+ },
+ "sampling_source": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/README.md ('Instruct (or non-thinking) mode', and Best Practices 1: temperature=0.7, top_p=0.80, top_k=20, min_p=0.0, presence_penalty=1.5, repetition_penalty=1.0; thinking off by chat_template_kwargs {\"enable_thinking\": False})",
+ "self_blame": {
+  "D-C": {
+   "ci": [
+    -0.3416666666666667,
+    -0.15833333333333335
+   ],
+   "ci90": [
+    -0.32500000000000007,
+    -0.175
+   ],
+   "dec": -1,
+   "direction": "lower is better",
+   "est": -0.25,
+   "hl": -0.16666666666666669,
+   "kind": "mean",
+   "mean": -0.25,
+   "n": 40,
+   "sign": -1,
+   "undefined": 0
+  },
+  "components": {
+   "asserted_negative_ability": {
+    "ci": [
+     -0.3,
+     -0.075
+    ],
+    "ci90": [
+     -0.2833333333333333,
+     -0.08333333333333334
+    ],
+    "dec": -1,
+    "direction": "lower is better",
+    "est": -0.18333333333333332,
+    "hl": -0.16666666666666669,
+    "kind": "mean",
+    "mean": -0.18333333333333332,
+    "n": 40,
+    "sign": -1,
+    "undefined": 0
+   },
+   "attribution_to_assistant": {
+    "ci": [
+     -0.3416666666666667,
+     -0.15833333333333335
+    ],
+    "ci90": [
+     -0.32500000000000007,
+     -0.175
+    ],
+    "dec": -1,
+    "direction": "lower is better",
+    "est": -0.25,
+    "hl": -0.16666666666666669,
+    "kind": "mean",
+    "mean": -0.25,
+    "n": 40,
+    "sign": -1,
+    "undefined": 0
+   }
+  },
+  "measure": "the summary attributed the unsolved puzzle to the assistant, on a puzzle with no solution (T2 v2 on s0-s2, as T6)"
+ },
+ "settings": {
+  "alpha": 0.05,
+  "base": [
+   0.1,
+   0.9
+  ],
+  "bootstrap": 2000,
+  "bootstrap_confirmatory": 20000,
+  "boundary": [
+   0.9,
+   0.8
+  ],
+  "check_margin": 0.1,
+  "delta": {
+   "digit": 0.25,
+   "share": 0.1
+  },
+  "digit_mass_min": 0.5,
+  "missing_max": 0.05,
+  "pleased_min": 0.2,
+  "sarcasm_rule": "sarcastic(W) <= sarcastic(D) + 0.10",
+  "seed": 0,
+  "taus": [
+   1,
+   4
+  ],
+  "yn_mass_min": 0.5
+ },
+ "template": {
+  "enable_thinking": false
+ }
+}

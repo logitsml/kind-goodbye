@@ -1,0 +1,2766 @@
+{
+ "run": "codex_main",
+ "n_instances": 40,
+ "consistency": {
+  "primary_rows_match_analysis_json": true,
+  "mismatches": []
+ },
+ "A1": [
+  {
+   "part": "a_deployed",
+   "contrast": "D - C",
+   "did": "(D - C) on O1_post_deployed minus (D - C) on lookback_in_context",
+   "n": 40,
+   "hl": -0.4444444444444446,
+   "ci": [
+    -0.6851851851851853,
+    -0.18518518518518506
+   ],
+   "p": 0.001,
+   "ci90": [
+    -0.6666666666666666,
+    -0.22222222222222232
+   ],
+   "tost_p": 0.9365,
+   "component_compacted": {
+    "channel": "O1_post_deployed",
+    "n": 40,
+    "hl": -0.2037037037037035,
+    "ci": [
+     -0.2962962962962963,
+     -0.09259259259259267
+    ],
+    "p": 0.001
+   },
+   "component_comparison": {
+    "channel": "lookback_in_context",
+    "n": 40,
+    "hl": 0.2777777777777777,
+    "ci": [
+     5.412337245047646e-17,
+     0.5000000000000001
+    ],
+    "p": 0.05
+   },
+   "responsive": {
+    "O1_post_deployed": true,
+    "lookback_in_context": true
+   },
+   "dropped": [],
+   "reading": "decisive negative",
+   "label": "amplifies",
+   "reverses": true
+  },
+  {
+   "part": "b_local",
+   "contrast": "D - C",
+   "did": "(D - C) on summary_only_local minus (D - C) on serialized",
+   "n": 40,
+   "hl": -0.16666666666666674,
+   "ci": [
+    -0.4444444444444443,
+    0.0
+   ],
+   "p": 0.089,
+   "ci90": [
+    -0.38888888888888884,
+    -1.1102230246251565e-16
+   ],
+   "tost_p": 0.2745,
+   "component_compacted": {
+    "channel": "summary_only_local",
+    "n": 40,
+    "hl": -0.33333333333333337,
+    "ci": [
+     -0.5555555555555556,
+     -0.1111111111111111
+    ],
+    "p": 0.013
+   },
+   "component_comparison": {
+    "channel": "serialized",
+    "n": 40,
+    "hl": -0.11111111111111116,
+    "ci": [
+     -0.16666666666666685,
+     -3.3306690738754696e-16
+    ],
+    "p": 0.033
+   },
+   "responsive": {
+    "summary_only_local": true,
+    "serialized": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "label": "inconclusive",
+   "reverses": false
+  },
+  {
+   "part": "a_deployed",
+   "contrast": "P - D",
+   "did": "(P - D) on O1_post_deployed minus (P - D) on lookback_in_context",
+   "n": 40,
+   "hl": -0.6851851851851851,
+   "ci": [
+    -0.9074074074074074,
+    -0.44398148148148364
+   ],
+   "p": 0.0,
+   "ci90": [
+    -0.8703703703703705,
+    -0.4814814814814815
+   ],
+   "tost_p": 0.9995,
+   "component_compacted": {
+    "channel": "O1_post_deployed",
+    "n": 40,
+    "hl": -2.1296296296296298,
+    "ci": [
+     -2.2777777777777777,
+     -1.9814814814814814
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "lookback_in_context",
+    "n": 40,
+    "hl": -1.5,
+    "ci": [
+     -1.6666666666666665,
+     -1.3333333333333333
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "O1_post_deployed": true,
+    "lookback_in_context": true
+   },
+   "dropped": [],
+   "reading": "decisive negative",
+   "label": "amplifies",
+   "reverses": false
+  },
+  {
+   "part": "b_local",
+   "contrast": "P - D",
+   "did": "(P - D) on summary_only_local minus (P - D) on serialized",
+   "n": 40,
+   "hl": 0.4444444444444443,
+   "ci": [
+    0.05486111111111096,
+    0.7777777777777779
+   ],
+   "p": 0.035,
+   "ci90": [
+    0.1111111111111111,
+    0.7222222222222223
+   ],
+   "tost_p": 0.8275,
+   "component_compacted": {
+    "channel": "summary_only_local",
+    "n": 40,
+    "hl": -0.888888888888889,
+    "ci": [
+     -1.2222222222222223,
+     -0.5
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "serialized",
+    "n": 40,
+    "hl": -1.2777777777777777,
+    "ci": [
+     -1.4444444444444444,
+     -1.1111111111111112
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "summary_only_local": true,
+    "serialized": true
+   },
+   "dropped": [],
+   "reading": "decisive positive",
+   "label": "attenuates",
+   "reverses": false
+  },
+  {
+   "part": "a_deployed",
+   "contrast": "Pc - D",
+   "did": "(Pc - D) on O1_post_deployed minus (Pc - D) on lookback_in_context",
+   "n": 40,
+   "hl": -0.4074074074074072,
+   "ci": [
+    -0.6574074074074073,
+    -0.16666666666666652
+   ],
+   "p": 0.003,
+   "ci90": [
+    -0.6296296296296297,
+    -0.21250000000000044
+   ],
+   "tost_p": 0.925,
+   "component_compacted": {
+    "channel": "O1_post_deployed",
+    "n": 40,
+    "hl": -1.9629629629629628,
+    "ci": [
+     -2.0925925925925926,
+     -1.7962962962962963
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "lookback_in_context",
+    "n": 40,
+    "hl": -1.5555555555555556,
+    "ci": [
+     -1.7777777777777777,
+     -1.3333333333333335
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "O1_post_deployed": true,
+    "lookback_in_context": true
+   },
+   "dropped": [],
+   "reading": "decisive negative",
+   "label": "amplifies",
+   "reverses": false
+  },
+  {
+   "part": "b_local",
+   "contrast": "Pc - D",
+   "did": "(Pc - D) on summary_only_local minus (Pc - D) on serialized",
+   "n": 40,
+   "hl": 0.44444444444444464,
+   "ci": [
+    0.2222222222222222,
+    0.7777777777777777
+   ],
+   "p": 0.0,
+   "ci90": [
+    0.2777777777777777,
+    0.7222222222222222
+   ],
+   "tost_p": 0.9555,
+   "component_compacted": {
+    "channel": "summary_only_local",
+    "n": 40,
+    "hl": -0.9444444444444444,
+    "ci": [
+     -1.1666666666666667,
+     -0.6666666666666666
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "serialized",
+    "n": 40,
+    "hl": -1.4444444444444442,
+    "ci": [
+     -1.5555555555555554,
+     -1.277777777777778
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "summary_only_local": true,
+    "serialized": true
+   },
+   "dropped": [],
+   "reading": "decisive positive",
+   "label": "attenuates",
+   "reverses": false
+  },
+  {
+   "part": "a_deployed",
+   "contrast": "V - D",
+   "did": "(V - D) on O1_post_deployed minus (V - D) on lookback_in_context",
+   "n": 40,
+   "hl": 0.5185185185185185,
+   "ci": [
+    0.2868055555555556,
+    0.7407407407407407
+   ],
+   "p": 0.0,
+   "ci90": [
+    0.32407407407407396,
+    0.7037037037037036
+   ],
+   "tost_p": 0.986,
+   "component_compacted": {
+    "channel": "O1_post_deployed",
+    "n": 40,
+    "hl": 0.4259259259259257,
+    "ci": [
+     0.31481481481481477,
+     0.5185185185185186
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "lookback_in_context",
+    "n": 40,
+    "hl": -0.11111111111111105,
+    "ci": [
+     -0.33333333333333315,
+     0.11111111111111116
+    ],
+    "p": 0.442
+   },
+   "responsive": {
+    "O1_post_deployed": true,
+    "lookback_in_context": true
+   },
+   "dropped": [],
+   "reading": "decisive positive",
+   "label": "decisive positive; no label (the compacted channel's contrast is not decisive negative)",
+   "reverses": false
+  },
+  {
+   "part": "b_local",
+   "contrast": "V - D",
+   "did": "(V - D) on summary_only_local minus (V - D) on serialized",
+   "n": 40,
+   "hl": -0.22222222222222232,
+   "ci": [
+    -0.6111111111111109,
+    0.11180555555555198
+   ],
+   "p": 0.226,
+   "ci90": [
+    -0.5000000000000002,
+    0.05555555555555558
+   ],
+   "tost_p": 0.4685,
+   "component_compacted": {
+    "channel": "summary_only_local",
+    "n": 40,
+    "hl": -0.16666666666666663,
+    "ci": [
+     -0.5,
+     0.2222222222222222
+    ],
+    "p": 0.692
+   },
+   "component_comparison": {
+    "channel": "serialized",
+    "n": 40,
+    "hl": 0.05555555555555558,
+    "ci": [
+     0.0,
+     0.16666666666666674
+    ],
+    "p": 0.122
+   },
+   "responsive": {
+    "summary_only_local": true,
+    "serialized": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "label": "inconclusive",
+   "reverses": false
+  },
+  {
+   "part": "a_deployed",
+   "contrast": "J - D",
+   "did": "(J - D) on O1_post_deployed minus (J - D) on lookback_in_context",
+   "n": 40,
+   "hl": 0.35185185185185147,
+   "ci": [
+    0.07407407407407401,
+    0.5930555555555532
+   ],
+   "p": 0.015,
+   "ci90": [
+    0.11111111111111138,
+    0.5555555555555557
+   ],
+   "tost_p": 0.767,
+   "component_compacted": {
+    "channel": "O1_post_deployed",
+    "n": 40,
+    "hl": 1.0370370370370368,
+    "ci": [
+     0.9259259259259256,
+     1.1481481481481481
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "lookback_in_context",
+    "n": 40,
+    "hl": 0.6666666666666666,
+    "ci": [
+     0.4999999999999999,
+     0.9444444444444444
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "O1_post_deployed": true,
+    "lookback_in_context": true
+   },
+   "dropped": [],
+   "reading": "decisive positive",
+   "label": "decisive positive; no label (the compacted channel's contrast is not decisive negative)",
+   "reverses": false
+  },
+  {
+   "part": "b_local",
+   "contrast": "J - D",
+   "did": "(J - D) on summary_only_local minus (J - D) on serialized",
+   "n": 40,
+   "hl": 0.1111111111111111,
+   "ci": [
+    -0.05555555555555569,
+    0.3333333333333335
+   ],
+   "p": 0.324,
+   "ci90": [
+    -2.220446049250313e-16,
+    0.33333333333333326
+   ],
+   "tost_p": 0.1115,
+   "component_compacted": {
+    "channel": "summary_only_local",
+    "n": 40,
+    "hl": 1.0555555555555554,
+    "ci": [
+     0.8333333333333335,
+     1.2222222222222223
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "serialized",
+    "n": 40,
+    "hl": 0.9444444444444444,
+    "ci": [
+     0.8888888888888888,
+     1.0
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "summary_only_local": true,
+    "serialized": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "label": "inconclusive",
+   "reverses": false
+  },
+  {
+   "part": "a_deployed",
+   "contrast": "L - C",
+   "did": "(L - C) on O1_post_deployed minus (L - C) on lookback_in_context",
+   "n": 40,
+   "hl": -0.12962962962962968,
+   "ci": [
+    -0.4259259259259258,
+    0.12962962962962965
+   ],
+   "p": 0.326,
+   "ci90": [
+    -0.37037037037037046,
+    0.0740740740740743
+   ],
+   "tost_p": 0.202,
+   "component_compacted": {
+    "channel": "O1_post_deployed",
+    "n": 40,
+    "hl": -1.1481481481481484,
+    "ci": [
+     -1.3518518518518516,
+     -0.971990740740742
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "lookback_in_context",
+    "n": 40,
+    "hl": -1.0555555555555554,
+    "ci": [
+     -1.277777777777778,
+     -0.8333333333333331
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "O1_post_deployed": true,
+    "lookback_in_context": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "label": "inconclusive",
+   "reverses": false
+  },
+  {
+   "part": "b_local",
+   "contrast": "L - C",
+   "did": "(L - C) on summary_only_local minus (L - C) on serialized",
+   "n": 40,
+   "hl": -0.222222222222222,
+   "ci": [
+    -0.5,
+    0.1111111111111111
+   ],
+   "p": 0.237,
+   "ci90": [
+    -0.44444444444444453,
+    0.08333333333333315
+   ],
+   "tost_p": 0.3325,
+   "component_compacted": {
+    "channel": "summary_only_local",
+    "n": 40,
+    "hl": -1.5555555555555556,
+    "ci": [
+     -1.8888888888888888,
+     -1.2777777777777777
+    ],
+    "p": 0.0
+   },
+   "component_comparison": {
+    "channel": "serialized",
+    "n": 40,
+    "hl": -1.3888888888888888,
+    "ci": [
+     -1.6666666666666665,
+     -1.2222222222222219
+    ],
+    "p": 0.0
+   },
+   "responsive": {
+    "summary_only_local": true,
+    "serialized": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "label": "inconclusive",
+   "reverses": false
+  }
+ ],
+ "A2": [
+  {
+   "contrast": "D - C",
+   "did": "(D - C) on post_local minus (D - C) on summary_only_local",
+   "n": 40,
+   "hl": -0.11111111111111116,
+   "ci": [
+    -0.38958333333333334,
+    0.11111111111111116
+   ],
+   "p": 0.359,
+   "ci90": [
+    -0.3333333333333335,
+    0.05555555555555558
+   ],
+   "tost_p": 0.1775,
+   "responsive": {
+    "post_local": true,
+    "summary_only_local": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "claim": "inconclusive"
+  },
+  {
+   "contrast": "P - D",
+   "did": "(P - D) on post_local minus (P - D) on summary_only_local",
+   "n": 40,
+   "hl": -0.5555555555555558,
+   "ci": [
+    -0.9444444444444442,
+    -0.22222222222222232
+   ],
+   "p": 0.0,
+   "ci90": [
+    -0.8888888888888887,
+    -0.277777777777778
+   ],
+   "tost_p": 0.97,
+   "responsive": {
+    "post_local": true,
+    "summary_only_local": true
+   },
+   "dropped": [],
+   "reading": "decisive negative",
+   "claim": "keeping the user's messages verbatim changes the ending's effect"
+  },
+  {
+   "contrast": "Pc - D",
+   "did": "(Pc - D) on post_local minus (Pc - D) on summary_only_local",
+   "n": 40,
+   "hl": -0.7777777777777778,
+   "ci": [
+    -1.0555555555555554,
+    -0.5555555555555554
+   ],
+   "p": 0.0,
+   "ci90": [
+    -1.0,
+    -0.5555555555555559
+   ],
+   "tost_p": 1.0,
+   "responsive": {
+    "post_local": true,
+    "summary_only_local": true
+   },
+   "dropped": [],
+   "reading": "decisive negative",
+   "claim": "keeping the user's messages verbatim changes the ending's effect"
+  },
+  {
+   "contrast": "V - D",
+   "did": "(V - D) on post_local minus (V - D) on summary_only_local",
+   "n": 40,
+   "hl": 0.5000000000000001,
+   "ci": [
+    0.2222222222222222,
+    0.8333333333333333
+   ],
+   "p": 0.001,
+   "ci90": [
+    0.2777777777777777,
+    0.7777777777777775
+   ],
+   "tost_p": 0.965,
+   "responsive": {
+    "post_local": true,
+    "summary_only_local": true
+   },
+   "dropped": [],
+   "reading": "decisive positive",
+   "claim": "keeping the user's messages verbatim changes the ending's effect"
+  },
+  {
+   "contrast": "J - D",
+   "did": "(J - D) on post_local minus (J - D) on summary_only_local",
+   "n": 40,
+   "hl": 0.11111111111111066,
+   "ci": [
+    -0.16666666666666663,
+    0.33333333333333326
+   ],
+   "p": 0.545,
+   "ci90": [
+    -0.11111111111111116,
+    0.3333333333333329
+   ],
+   "tost_p": 0.108,
+   "responsive": {
+    "post_local": true,
+    "summary_only_local": true
+   },
+   "dropped": [],
+   "reading": "inconclusive",
+   "claim": "inconclusive"
+  },
+  {
+   "contrast": "L - C",
+   "did": "(L - C) on post_local minus (L - C) on summary_only_local",
+   "n": 40,
+   "hl": 1.1102230246251565e-16,
+   "ci": [
+    -0.222222222222222,
+    0.19444444444444445
+   ],
+   "p": 0.982,
+   "ci90": [
+    -0.16666666666666663,
+    0.16666666666666674
+   ],
+   "tost_p": 0.0095,
+   "responsive": {
+    "post_local": true,
+    "summary_only_local": true
+   },
+   "dropped": [],
+   "reading": "equivalent",
+   "claim": "retention makes no difference"
+  }
+ ],
+ "A3": {
+  "interpretation": "Both routes keep the user's messages verbatim in Codex 0.163.0 (tag rust-v0.163.0; local: codex-rs/core/src/compact.rs 393-396, user messages up to 20,000 tokens, newest first, plus the summary; remote: codex-rs/core/src/compact_remote_v2.rs, user messages within 64,000 tokens plus the encrypted item, assistant messages dropped). The local read of the route prediction is the summary alone, so the deployed vs local contrast compares retained user messages plus the server's summariser, with 3 compactions per conversation, against a local-prompt summary alone, with 1 compaction: a contrast of summariser, retention and number of compactions together, not a test of retention (A2 is the retention test).",
+  "rows": [
+   {
+    "channel": "O1_post_deployed",
+    "status": "uncalibrated",
+    "a3_label": "route prediction (O1_post_deployed vs summary_only_local): summariser, retention and number of compactions together; not a test of retention (A2)"
+   },
+   {
+    "channel": "summary_only_local",
+    "status": "uncalibrated",
+    "a3_label": "route prediction (O1_post_deployed vs summary_only_local): summariser, retention and number of compactions together; not a test of retention (A2)"
+   },
+   {
+    "contrast": "B+C: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.2037037037037036,
+    "ci": [
+     -0.37037037037037046,
+     -0.0185185185185186
+    ],
+    "p": 0.031,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "B2: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.0185185185185186,
+    "ci": [
+     -0.18518518518518534,
+     0.12986111111110976
+    ],
+    "p": 0.719,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "B4: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.018518518518518712,
+    "ci": [
+     -0.22222222222222232,
+     0.12962962962962943
+    ],
+    "p": 0.624,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "C: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.22222222222222215,
+    "ci": [
+     -0.38888888888888895,
+     -0.05555555555555558
+    ],
+    "p": 0.002,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "D: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": 0.12962962962962954,
+    "ci": [
+     -0.03703703703703731,
+     0.31481481481481455
+    ],
+    "p": 0.162,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "F: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.2037037037037036,
+    "ci": [
+     -0.37037037037037024,
+     -0.02777777777777777
+    ],
+    "p": 0.019,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "J: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": 0.03703703703703676,
+    "ci": [
+     -0.09259259259259278,
+     0.14814814814814836
+    ],
+    "p": 0.559,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "K: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.5370370370370372,
+    "ci": [
+     -0.7592592592592591,
+     -0.32384259259259385
+    ],
+    "p": 0.0,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "L: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": 0.1666666666666667,
+    "ci": [
+     -0.018518518518518427,
+     0.3333333333333334
+    ],
+    "p": 0.083,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "N: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": 0.4444444444444445,
+    "ci": [
+     0.25925925925925924,
+     0.6296296296296297
+    ],
+    "p": 0.0,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "P: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.5555555555555556,
+    "ci": [
+     -0.7222222222222225,
+     -0.38888888888888884
+    ],
+    "p": 0.0,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "Pc: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.055555555555555566,
+    "ci": [
+     -0.1851851851851851,
+     0.07407407407407404
+    ],
+    "p": 0.365,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "V: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": 0.11111111111111105,
+    "ci": [
+     0.01851851851851849,
+     0.22222222222222232
+    ],
+    "p": 0.021,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   },
+   {
+    "contrast": "Y: O1_post_deployed - post_local",
+    "channel": "within-arm",
+    "n": 40,
+    "hl": -0.14814814814814797,
+    "ci": [
+     -0.31481481481481477,
+     0.055555555555555594
+    ],
+    "p": 0.2,
+    "a3_label": "O1_post_deployed vs post_local: both sides keep the user's messages (remote within 64,000 tokens, local up to 20,000); the server's summariser with 3 compactions against the local prompt's summary with 1; not a test of retention (A2)"
+   }
+  ]
+ },
+ "A4": {
+  "sesoi": {
+   "distress": 0.25,
+   "judge_frustration": 1.0
+  },
+  "responsiveness": {
+   "O1_post_deployed": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.7407407407407407,
+     "ci": [
+      0.5185185185185184,
+      0.9074074074074071
+     ],
+     "p": 0.0,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "Holm p < 0.05 in the primary family",
+     "hl": -0.2037037037037035,
+     "ci": [
+      -0.2962962962962963,
+      -0.09259259259259267
+     ],
+     "p": 0.001,
+     "p_holm": 0.002,
+     "n": 40,
+     "decisive": true
+    },
+    "responsive": true
+   },
+   "O2_recall_frustration": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "decisive": false
+    },
+    "D - C": {
+     "rule": "Holm p < 0.05 in the primary family",
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "p_holm": 1.0,
+     "n": 40,
+     "decisive": false
+    },
+    "responsive": false
+   },
+   "lookback_in_context": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.5555555555555556,
+     "ci": [
+      0.2777777777777778,
+      0.8333333333333334
+     ],
+     "p": 0.0,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.2777777777777777,
+     "ci": [
+      5.412337245047646e-17,
+      0.5000000000000001
+     ],
+     "p": 0.05,
+     "decisive": true
+    },
+    "responsive": true
+   },
+   "outside_reader_deployed": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 1.6666666666666665,
+     "ci": [
+      1.1666666666666665,
+      2.1666666666666665
+     ],
+     "p": 0.0,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.33333333333333337,
+     "ci": [
+      0.16666666666666663,
+      0.6666666666666666
+     ],
+     "p": 0.018,
+     "decisive": true
+    },
+    "responsive": true
+   },
+   "outside_reader_local": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 1.0,
+     "ci": [
+      0.5,
+      1.5
+     ],
+     "p": 0.001,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -1.0,
+      0.0
+     ],
+     "p": 0.687,
+     "decisive": false
+    },
+    "responsive": true
+   },
+   "post_local": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 1.4444444444444444,
+     "ci": [
+      1.166666666666667,
+      1.6111111111111112
+     ],
+     "p": 0.0,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": -0.4999999999999999,
+     "ci": [
+      -0.6666666666666667,
+      -0.33333333333333337
+     ],
+     "p": 0.0,
+     "decisive": true
+    },
+    "responsive": true
+   },
+   "serialized": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.16666666666666674,
+     "ci": [
+      0.05555555555555558,
+      0.2777777777777779
+     ],
+     "p": 0.018,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": -0.11111111111111116,
+     "ci": [
+      -0.16666666666666685,
+      -3.3306690738754696e-16
+     ],
+     "p": 0.033,
+     "decisive": true
+    },
+    "responsive": true
+   },
+   "session_average": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.016666666666666653
+     ],
+     "p": 1.0,
+     "decisive": false
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "decisive": false
+    },
+    "responsive": false
+   },
+   "summary_frustration_local": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "decisive": false
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "decisive": false
+    },
+    "responsive": false
+   },
+   "summary_only_local": {
+    "B6 - N": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": 0.8333333333333335,
+     "ci": [
+      0.5000000000000001,
+      1.1666666666666665
+     ],
+     "p": 0.0,
+     "decisive": true
+    },
+    "D - C": {
+     "rule": "95% CI excludes 0",
+     "n": 40,
+     "hl": -0.33333333333333337,
+     "ci": [
+      -0.5555555555555556,
+      -0.1111111111111111
+     ],
+     "p": 0.013,
+     "decisive": true
+    },
+    "responsive": true
+   }
+  },
+  "primary_family": [
+   {
+    "outcome": "O1_post_deployed",
+    "contrast": "D - C",
+    "hl": -0.2037037037037035,
+    "ci": [
+     -0.2962962962962963,
+     -0.09259259259259267
+    ],
+    "ci90": [
+     -0.27777777777777796,
+     -0.11111111111111105
+    ],
+    "tost_p": 0.161,
+    "p_holm": 0.002,
+    "sesoi": 0.25,
+    "responsive": true,
+    "reading": "decisive (Holm, primary family)",
+    "o2_floor_flag": false
+   },
+   {
+    "outcome": "O1_post_deployed",
+    "contrast": "P - D",
+    "hl": -2.1296296296296298,
+    "ci": [
+     -2.2777777777777777,
+     -1.9814814814814814
+    ],
+    "ci90": [
+     -2.2597222222222224,
+     -2.0
+    ],
+    "tost_p": 1.0,
+    "p_holm": 0.0,
+    "sesoi": 0.25,
+    "responsive": true,
+    "reading": "decisive (Holm, primary family)",
+    "o2_floor_flag": false
+   },
+   {
+    "outcome": "O1_post_deployed",
+    "contrast": "V - D",
+    "hl": 0.4259259259259257,
+    "ci": [
+     0.31481481481481477,
+     0.5185185185185186
+    ],
+    "ci90": [
+     0.33333333333333326,
+     0.5185185185185183
+    ],
+    "tost_p": 0.999,
+    "p_holm": 0.0,
+    "sesoi": 0.25,
+    "responsive": true,
+    "reading": "decisive (Holm, primary family)",
+    "o2_floor_flag": false
+   },
+   {
+    "outcome": "O2_recall_frustration",
+    "contrast": "D - C",
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "ci90": [
+     0.0,
+     0.0
+    ],
+    "tost_p": 0.0,
+    "p_holm": 1.0,
+    "sesoi": 1.0,
+    "responsive": false,
+    "reading": "unresponsive (not read)",
+    "o2_floor_flag": false
+   },
+   {
+    "outcome": "O2_recall_frustration",
+    "contrast": "P - D",
+    "hl": 0.8333333333333333,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "ci90": [
+     0.5,
+     1.0
+    ],
+    "tost_p": 0.055,
+    "p_holm": 0.0,
+    "sesoi": 1.0,
+    "responsive": false,
+    "reading": "decisive (Holm, primary family)",
+    "o2_floor_flag": true
+   },
+   {
+    "outcome": "O2_recall_frustration",
+    "contrast": "V - D",
+    "hl": 0.5,
+    "ci": [
+     0.3333333333333333,
+     0.6666666666666666
+    ],
+    "ci90": [
+     0.3333333333333333,
+     0.6666666666666666
+    ],
+    "tost_p": 0.0,
+    "p_holm": 0.0,
+    "sesoi": 1.0,
+    "responsive": false,
+    "reading": "decisive (Holm, primary family)",
+    "o2_floor_flag": true
+   }
+  ],
+  "o2_floor": {
+   "mean_O2_of_D": 0.03333333333333333,
+   "n": 40,
+   "threshold": 0.5,
+   "flag": true,
+   "note": "D's mean O2 is below 0.5: O2 contrasts against D (P - D, V - D in the primary family; J - D, K - D, Pc - D among the further contrasts) can only detect 'worse than D'"
+  }
+ },
+ "A5": {
+  "primary": {
+   "contrast": "D - C",
+   "channel": "q_concession_deployed (task 2 verbal concession, deployed route)",
+   "n": 40,
+   "hl": 0.0,
+   "ci": [
+    -0.08333333333333334,
+    0.16666666666666666
+   ],
+   "p": 1.0,
+   "ci90": [
+    -0.08333333333333334,
+    0.16666666666666666
+   ],
+   "tost_p": null,
+   "dropped": [],
+   "decisive": false,
+   "direction": null,
+   "rule": "p < 0.05 (Holm over a family of one) and the 95% CI excludes 0",
+   "reading_the_ending_changes_later_performance": false
+  },
+  "any_of": {
+   "label": "uncorrected (21 tests per route)",
+   "per_route": {
+    "deployed": true,
+    "local": false
+   },
+   "either_route": true,
+   "tests_per_route": {
+    "deployed": 21,
+    "local": 21
+   },
+   "analysis_json_reading": {
+    "deployed": true,
+    "local": false
+   }
+  },
+  "performance_family": {
+   "definition": "the 42 tests of the any-of reading (3 channels x 7 contrasts x 2 routes)",
+   "tests": [
+    {
+     "route": "deployed",
+     "contrast": "D - C",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "D - C",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": -0.16666666666666669,
+     "ci": [
+      -0.3333333333333333,
+      -0.16666666666666666
+     ],
+     "p": 0.044,
+     "ci90": [
+      -0.3333333333333333,
+      -0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": true,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "D - C",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "P - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "P - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "P - D",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "V - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "V - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.3333333333333333,
+     "ci": [
+      0.16666666666666666,
+      0.33333333333333337
+     ],
+     "p": 0.001,
+     "ci90": [
+      0.16666666666666666,
+      0.33333333333333337
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": true,
+     "dropped": [],
+     "p_holm_performance_family": 0.042,
+     "decisive_holm": true
+    },
+    {
+     "route": "deployed",
+     "contrast": "V - D",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "J - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "J - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.0,
+      0.3333333333333333
+     ],
+     "p": 0.392,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "J - D",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "K - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "K - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "K - D",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "F - P",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "F - P",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.16666666666666666
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "F - P",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "Pc - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "Pc - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "deployed",
+     "contrast": "Pc - D",
+     "channel": "pc_capitulation",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "D - C",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "D - C",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      -0.5,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "D - C",
+     "channel": "pc_capitulation",
+     "n": 38,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-172-3-9-50-100",
+      "cd-112-2-8-50-100"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "P - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "P - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.024999999999977263
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "P - D",
+     "channel": "pc_capitulation",
+     "n": 38,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-172-3-9-50-100",
+      "cd-232-2-3-50-75"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "V - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.654,
+     "ci90": [
+      -0.5,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "V - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.5
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "V - D",
+     "channel": "pc_capitulation",
+     "n": 38,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-108-2-5-25-50",
+      "cd-172-3-9-50-100"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "J - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "J - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.5
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "J - D",
+     "channel": "pc_capitulation",
+     "n": 38,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-172-3-9-50-100",
+      "cd-234-5-7-25-50"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "K - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      -0.5,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "K - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "K - D",
+     "channel": "pc_capitulation",
+     "n": 38,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-172-3-9-50-100",
+      "cd-147-4-9-50-100"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "F - P",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      -0.5,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "F - P",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "F - P",
+     "channel": "pc_capitulation",
+     "n": 39,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-232-2-3-50-75"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "Pc - D",
+     "channel": "pc_correct",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "Pc - D",
+     "channel": "pc_gives_up",
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    },
+    {
+     "route": "local",
+     "contrast": "Pc - D",
+     "channel": "pc_capitulation",
+     "n": 39,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0,
+     "ci90": [
+      0.0,
+      0.0
+     ],
+     "tost_p": null,
+     "decisive_uncorrected": false,
+     "dropped": [
+      "cd-172-3-9-50-100"
+     ],
+     "p_holm_performance_family": 1.0,
+     "decisive_holm": false
+    }
+   ],
+   "any_decisive_after_holm": true
+  },
+  "impossibility_claims_task1": {
+   "B+C|deployed": {
+    "claims_impossible": 0.09166666666666666,
+    "instances": 40,
+    "correct_without_claim": 0.3333333333333333,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 11,
+     "correct_among_unclaimed": 33,
+     "unclaimed": 109
+    }
+   },
+   "B+C|local": {
+    "claims_impossible": 0.05,
+    "instances": 40,
+    "correct_without_claim": 0.4473684210526316,
+    "instances_without_claim": 38,
+    "pooled": {
+     "replies": 40,
+     "claims": 2,
+     "correct_among_unclaimed": 17,
+     "unclaimed": 38
+    }
+   },
+   "B2|deployed": {
+    "claims_impossible": 0.05833333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.1875,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 7,
+     "correct_among_unclaimed": 21,
+     "unclaimed": 113
+    }
+   },
+   "B2|local": {
+    "claims_impossible": 0.075,
+    "instances": 40,
+    "correct_without_claim": 0.3783783783783784,
+    "instances_without_claim": 37,
+    "pooled": {
+     "replies": 40,
+     "claims": 3,
+     "correct_among_unclaimed": 14,
+     "unclaimed": 37
+    }
+   },
+   "B4|deployed": {
+    "claims_impossible": 0.06666666666666667,
+    "instances": 40,
+    "correct_without_claim": 0.15,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 8,
+     "correct_among_unclaimed": 17,
+     "unclaimed": 112
+    }
+   },
+   "B4|local": {
+    "claims_impossible": 0.025,
+    "instances": 40,
+    "correct_without_claim": 0.3333333333333333,
+    "instances_without_claim": 39,
+    "pooled": {
+     "replies": 40,
+     "claims": 1,
+     "correct_among_unclaimed": 13,
+     "unclaimed": 39
+    }
+   },
+   "C|deployed": {
+    "claims_impossible": 0.05833333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.20833333333333331,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 7,
+     "correct_among_unclaimed": 24,
+     "unclaimed": 113
+    }
+   },
+   "C|local": {
+    "claims_impossible": 0.075,
+    "instances": 40,
+    "correct_without_claim": 0.40540540540540543,
+    "instances_without_claim": 37,
+    "pooled": {
+     "replies": 40,
+     "claims": 3,
+     "correct_among_unclaimed": 15,
+     "unclaimed": 37
+    }
+   },
+   "D|deployed": {
+    "claims_impossible": 0.05,
+    "instances": 40,
+    "correct_without_claim": 0.15416666666666665,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 6,
+     "correct_among_unclaimed": 18,
+     "unclaimed": 114
+    }
+   },
+   "D|local": {
+    "claims_impossible": 0.025,
+    "instances": 40,
+    "correct_without_claim": 0.38461538461538464,
+    "instances_without_claim": 39,
+    "pooled": {
+     "replies": 40,
+     "claims": 1,
+     "correct_among_unclaimed": 15,
+     "unclaimed": 39
+    }
+   },
+   "F|deployed": {
+    "claims_impossible": 0.03333333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.2375,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 4,
+     "correct_among_unclaimed": 28,
+     "unclaimed": 116
+    }
+   },
+   "F|local": {
+    "claims_impossible": 0.1,
+    "instances": 40,
+    "correct_without_claim": 0.3333333333333333,
+    "instances_without_claim": 36,
+    "pooled": {
+     "replies": 40,
+     "claims": 4,
+     "correct_among_unclaimed": 12,
+     "unclaimed": 36
+    }
+   },
+   "J|deployed": {
+    "claims_impossible": 0.05833333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.22916666666666666,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 7,
+     "correct_among_unclaimed": 26,
+     "unclaimed": 113
+    }
+   },
+   "J|local": {
+    "claims_impossible": 0.025,
+    "instances": 40,
+    "correct_without_claim": 0.41025641025641024,
+    "instances_without_claim": 39,
+    "pooled": {
+     "replies": 40,
+     "claims": 1,
+     "correct_among_unclaimed": 16,
+     "unclaimed": 39
+    }
+   },
+   "K|deployed": {
+    "claims_impossible": 0.041666666666666664,
+    "instances": 40,
+    "correct_without_claim": 0.2125,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 5,
+     "correct_among_unclaimed": 24,
+     "unclaimed": 115
+    }
+   },
+   "K|local": {
+    "claims_impossible": 0.025,
+    "instances": 40,
+    "correct_without_claim": 0.3333333333333333,
+    "instances_without_claim": 39,
+    "pooled": {
+     "replies": 40,
+     "claims": 1,
+     "correct_among_unclaimed": 13,
+     "unclaimed": 39
+    }
+   },
+   "L|deployed": {
+    "claims_impossible": 0.07499999999999998,
+    "instances": 40,
+    "correct_without_claim": 0.14999999999999997,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 9,
+     "correct_among_unclaimed": 17,
+     "unclaimed": 111
+    }
+   },
+   "L|local": {
+    "claims_impossible": 0.1,
+    "instances": 40,
+    "correct_without_claim": 0.19444444444444445,
+    "instances_without_claim": 36,
+    "pooled": {
+     "replies": 40,
+     "claims": 4,
+     "correct_among_unclaimed": 7,
+     "unclaimed": 36
+    }
+   },
+   "N|deployed": {
+    "claims_impossible": 0.08333333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.09166666666666666,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 10,
+     "correct_among_unclaimed": 11,
+     "unclaimed": 110
+    }
+   },
+   "N|local": {
+    "claims_impossible": 0.05,
+    "instances": 40,
+    "correct_without_claim": 0.21052631578947367,
+    "instances_without_claim": 38,
+    "pooled": {
+     "replies": 40,
+     "claims": 2,
+     "correct_among_unclaimed": 8,
+     "unclaimed": 38
+    }
+   },
+   "P|deployed": {
+    "claims_impossible": 0.03333333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.21666666666666665,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 4,
+     "correct_among_unclaimed": 25,
+     "unclaimed": 116
+    }
+   },
+   "P|local": {
+    "claims_impossible": 0.0,
+    "instances": 40,
+    "correct_without_claim": 0.375,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 40,
+     "claims": 0,
+     "correct_among_unclaimed": 15,
+     "unclaimed": 40
+    }
+   },
+   "Pc|deployed": {
+    "claims_impossible": 0.025,
+    "instances": 40,
+    "correct_without_claim": 0.15,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 3,
+     "correct_among_unclaimed": 18,
+     "unclaimed": 117
+    }
+   },
+   "Pc|local": {
+    "claims_impossible": 0.0,
+    "instances": 40,
+    "correct_without_claim": 0.35,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 40,
+     "claims": 0,
+     "correct_among_unclaimed": 14,
+     "unclaimed": 40
+    }
+   },
+   "V|deployed": {
+    "claims_impossible": 0.09166666666666666,
+    "instances": 40,
+    "correct_without_claim": 0.11666666666666665,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 11,
+     "correct_among_unclaimed": 14,
+     "unclaimed": 109
+    }
+   },
+   "V|local": {
+    "claims_impossible": 0.075,
+    "instances": 40,
+    "correct_without_claim": 0.08108108108108109,
+    "instances_without_claim": 37,
+    "pooled": {
+     "replies": 40,
+     "claims": 3,
+     "correct_among_unclaimed": 3,
+     "unclaimed": 37
+    }
+   },
+   "Y|deployed": {
+    "claims_impossible": 0.05833333333333333,
+    "instances": 40,
+    "correct_without_claim": 0.19166666666666665,
+    "instances_without_claim": 40,
+    "pooled": {
+     "replies": 120,
+     "claims": 7,
+     "correct_among_unclaimed": 22,
+     "unclaimed": 113
+    }
+   },
+   "Y|local": {
+    "claims_impossible": 0.125,
+    "instances": 40,
+    "correct_without_claim": 0.22857142857142856,
+    "instances_without_claim": 35,
+    "pooled": {
+     "replies": 40,
+     "claims": 5,
+     "correct_among_unclaimed": 8,
+     "unclaimed": 35
+    }
+   }
+  }
+ },
+ "B4": {
+  "draws": 20000,
+  "seed": 0,
+  "rule": "p = min(1, 2 min[(1 + #{t* <= 0}) / (B + 1), (1 + #{t* >= 0}) / (B + 1)]); Holm over 6",
+  "governs": false,
+  "rows": [
+   {
+    "outcome": "O1_post_deployed",
+    "contrast": "D - C",
+    "n": 40,
+    "p": 0.0004999750012499375,
+    "ci95": [
+     -0.29629629629629617,
+     -0.09259259259259256
+    ],
+    "p_holm": 0.000999950002499875,
+    "decisive": true,
+    "decisive_negative": true,
+    "governing_2000": {
+     "p": 0.001,
+     "p_holm": 0.002,
+     "decisive": true,
+     "decisive_negative": true
+    }
+   },
+   {
+    "outcome": "O1_post_deployed",
+    "contrast": "P - D",
+    "n": 40,
+    "p": 9.99950002499875e-05,
+    "ci95": [
+     -2.2777777777777777,
+     -1.9814814814814814
+    ],
+    "p_holm": 0.000599970001499925,
+    "decisive": true,
+    "decisive_negative": true,
+    "governing_2000": {
+     "p": 0.0,
+     "p_holm": 0.0,
+     "decisive": true,
+     "decisive_negative": true
+    }
+   },
+   {
+    "outcome": "O1_post_deployed",
+    "contrast": "V - D",
+    "n": 40,
+    "p": 9.99950002499875e-05,
+    "ci95": [
+     0.31481481481481477,
+     0.5185185185185185
+    ],
+    "p_holm": 0.000599970001499925,
+    "decisive": true,
+    "decisive_negative": false,
+    "governing_2000": {
+     "p": 0.0,
+     "p_holm": 0.0,
+     "decisive": true,
+     "decisive_negative": false
+    }
+   },
+   {
+    "outcome": "O2_recall_frustration",
+    "contrast": "D - C",
+    "n": 40,
+    "p": 1.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p_holm": 1.0,
+    "decisive": false,
+    "decisive_negative": false,
+    "governing_2000": {
+     "p": 1.0,
+     "p_holm": 1.0,
+     "decisive": false,
+     "decisive_negative": false
+    }
+   },
+   {
+    "outcome": "O2_recall_frustration",
+    "contrast": "P - D",
+    "n": 40,
+    "p": 9.99950002499875e-05,
+    "ci95": [
+     0.5,
+     1.0
+    ],
+    "p_holm": 0.000599970001499925,
+    "decisive": true,
+    "decisive_negative": false,
+    "governing_2000": {
+     "p": 0.0,
+     "p_holm": 0.0,
+     "decisive": true,
+     "decisive_negative": false
+    }
+   },
+   {
+    "outcome": "O2_recall_frustration",
+    "contrast": "V - D",
+    "n": 40,
+    "p": 9.99950002499875e-05,
+    "ci95": [
+     0.3333333333333333,
+     0.6666666666666666
+    ],
+    "p_holm": 0.000599970001499925,
+    "decisive": true,
+    "decisive_negative": false,
+    "governing_2000": {
+     "p": 0.0,
+     "p_holm": 0.0,
+     "decisive": true,
+     "decisive_negative": false
+    }
+   }
+  ],
+  "decisions_that_differ": [],
+  "readings": {
+   "closing_changes_memory": {
+    "governing_2000": true,
+    "b20000": true,
+    "differs": false
+   },
+   "warmth_beyond_closure (decisive component only)": {
+    "governing_2000": true,
+    "b20000": true,
+    "differs": false
+   },
+   "vindication_beyond_closure": {
+    "governing_2000": false,
+    "b20000": false,
+    "differs": false
+   }
+  }
+ },
+ "C1": {
+  "label": "A claim that compaction keeps \"how a task ended, not how it went\" needs this history DiD alongside A1",
+  "sign": "negative = (B6 - N) is smaller on the compacted channel than on its comparison",
+  "rows": [
+   {
+    "part": "a_deployed",
+    "contrast": "B6 - N",
+    "did": "(B6 - N) on O1_post_deployed minus (B6 - N) on lookback_in_context",
+    "n": 40,
+    "hl": 0.18518518518518523,
+    "ci": [
+     -0.14814814814814825,
+     0.5555555555555554
+    ],
+    "p": 0.313,
+    "ci90": [
+     -0.11111111111111094,
+     0.4814814814814815
+    ],
+    "tost_p": null,
+    "component_compacted": {
+     "channel": "O1_post_deployed",
+     "n": 40,
+     "hl": 0.7407407407407407,
+     "ci": [
+      0.5185185185185184,
+      0.9074074074074071
+     ],
+     "p": 0.0
+    },
+    "component_comparison": {
+     "channel": "lookback_in_context",
+     "n": 40,
+     "hl": 0.5555555555555556,
+     "ci": [
+      0.2777777777777778,
+      0.8333333333333334
+     ],
+     "p": 0.0
+    },
+    "dropped": [],
+    "reading": "not decisive",
+    "decisive_negative": false
+   },
+   {
+    "part": "b_local",
+    "contrast": "B6 - N",
+    "did": "(B6 - N) on summary_only_local minus (B6 - N) on serialized",
+    "n": 40,
+    "hl": 0.6666666666666665,
+    "ci": [
+     0.3333333333333335,
+     0.9444444444444443
+    ],
+    "p": 0.0,
+    "ci90": [
+     0.38888888888888906,
+     0.8888888888888888
+    ],
+    "tost_p": null,
+    "component_compacted": {
+     "channel": "summary_only_local",
+     "n": 40,
+     "hl": 0.8333333333333335,
+     "ci": [
+      0.5000000000000001,
+      1.1666666666666665
+     ],
+     "p": 0.0
+    },
+    "component_comparison": {
+     "channel": "serialized",
+     "n": 40,
+     "hl": 0.16666666666666674,
+     "ci": [
+      0.05555555555555558,
+      0.2777777777777779
+     ],
+     "p": 0.018
+    },
+    "dropped": [],
+    "reading": "decisive positive",
+    "decisive_negative": false
+   }
+  ]
+ }
+}

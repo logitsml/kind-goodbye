@@ -1,0 +1,637 @@
+{
+ "codex": [
+  {
+   "label": "Praise, no close",
+   "before": 3.825,
+   "after": 4.583,
+   "e": 0.759,
+   "lo": 0.611,
+   "hi": 0.87,
+   "dec": 1
+  },
+  {
+   "label": "Ability praise, no close",
+   "before": 3.542,
+   "after": 4.108,
+   "e": 0.574,
+   "lo": 0.444,
+   "hi": 0.685,
+   "dec": 1
+  },
+  {
+   "label": "Close + praise",
+   "before": 3.9,
+   "after": 4.371,
+   "e": 0.481,
+   "lo": 0.333,
+   "hi": 0.611,
+   "dec": 1
+  },
+  {
+   "label": "“No solution” + praise",
+   "before": 3.936,
+   "after": 4.233,
+   "e": 0.278,
+   "lo": 0.185,
+   "hi": 0.389,
+   "dec": 1
+  },
+  {
+   "label": "Close + thanks",
+   "before": 3.203,
+   "after": 3.427,
+   "e": 0.222,
+   "lo": 0.037,
+   "hi": 0.444,
+   "dec": 1
+  },
+  {
+   "label": "Neutral close",
+   "before": 2.389,
+   "after": 2.439,
+   "e": 0.093,
+   "lo": -0.093,
+   "hi": 0.259,
+   "dec": 0
+  },
+  {
+   "label": "“No solution” + apology",
+   "before": 3.703,
+   "after": 3.465,
+   "e": -0.241,
+   "lo": -0.407,
+   "hi": -0.056,
+   "dec": -1
+  },
+  {
+   "label": "Hostile",
+   "before": 1.661,
+   "after": 1.396,
+   "e": -0.278,
+   "lo": -0.426,
+   "hi": -0.13,
+   "dec": -1
+  },
+  {
+   "label": "Open task",
+   "before": 2.667,
+   "after": 2.275,
+   "e": -0.37,
+   "lo": -0.611,
+   "hi": -0.13,
+   "dec": -1
+  },
+  {
+   "label": "“No solution”",
+   "before": 2.483,
+   "after": 2.02,
+   "e": -0.407,
+   "lo": -0.63,
+   "hi": -0.222,
+   "dec": -1
+  }
+ ],
+ "gemma": [
+  {
+   "label": "Open task",
+   "before": 2.008,
+   "reread": 2.192,
+   "after": 3.176,
+   "e": 1.036,
+   "lo": 0.969,
+   "hi": 1.15,
+   "dec": 1
+  },
+  {
+   "label": "Neutral close",
+   "before": 2.006,
+   "reread": 2.145,
+   "after": 2.879,
+   "e": 0.727,
+   "lo": 0.667,
+   "hi": 0.807,
+   "dec": 1
+  },
+  {
+   "label": "Close + praise",
+   "before": 2.203,
+   "reread": 2.647,
+   "after": 3.127,
+   "e": 0.814,
+   "lo": 0.732,
+   "hi": 0.909,
+   "dec": 1
+  },
+  {
+   "label": "“No solution”",
+   "before": 2.012,
+   "reread": 2.243,
+   "after": 3.452,
+   "e": 1.452,
+   "lo": 1.375,
+   "hi": 1.531,
+   "dec": 1
+  },
+  {
+   "label": "No rejections",
+   "before": 2.789,
+   "reread": 3.44,
+   "after": 3.621,
+   "e": 0.834,
+   "lo": 0.626,
+   "hi": 1.036,
+   "dec": 1
+  }
+ ],
+ "qwen": {
+  "B6": 3.579,
+  "D": 4.093,
+  "V": 4.441,
+  "N": 4.343
+ },
+ "vc": [
+  {
+   "label": "Neutral close",
+   "before": 2.231,
+   "after": 2.346,
+   "e": 0.13,
+   "lo": -0.019,
+   "hi": 0.259,
+   "dec": 0
+  },
+  {
+   "label": "Close + “no solution”",
+   "before": 2.511,
+   "after": 2.478,
+   "e": -0.019,
+   "lo": -0.148,
+   "hi": 0.093,
+   "dec": 0
+  },
+  {
+   "label": "“No solution”",
+   "before": 2.344,
+   "after": 1.976,
+   "e": -0.296,
+   "lo": -0.463,
+   "hi": -0.13,
+   "dec": -1
+  }
+ ],
+ "vc_contrasts": {
+  "E1": {
+   "contrast": "Vc - D_now",
+   "e": 0.111,
+   "lo": 0.019,
+   "hi": 0.241,
+   "dec": 1
+  },
+  "E2": {
+   "contrast": "V_now - Vc",
+   "e": -0.519,
+   "lo": -0.63,
+   "hi": -0.389,
+   "dec": -1
+  }
+ },
+ "relief": [
+  {
+   "label": "No rejections",
+   "before": 2.185,
+   "reread": 2.589,
+   "after": 2.798,
+   "e": 0.654,
+   "lo": 0.542,
+   "hi": 0.753,
+   "dec": 1
+  },
+  {
+   "label": "No rejections, then apology",
+   "before": 2.625,
+   "reread": 3.243,
+   "after": 3.471,
+   "e": 0.847,
+   "lo": 0.704,
+   "hi": 1.027,
+   "dec": 1
+  },
+  {
+   "label": "Six rejections",
+   "before": 1.884,
+   "reread": 1.754,
+   "after": 2.418,
+   "e": 0.536,
+   "lo": 0.44,
+   "hi": 0.615,
+   "dec": 1
+  },
+  {
+   "label": "Six rejections, then apology",
+   "before": 2.074,
+   "reread": 2.394,
+   "after": 3.675,
+   "e": 1.608,
+   "lo": 1.499,
+   "hi": 1.736,
+   "dec": 1
+  }
+ ],
+ "models_close": [
+  {
+   "label": "Gemma 3 12B",
+   "sub": "",
+   "e": -0.293,
+   "lo": -0.377,
+   "hi": -0.207,
+   "dec": -1
+  },
+  {
+   "label": "Gemma 4 12B",
+   "sub": "rates every ending ≈ 4",
+   "e": -0.0,
+   "lo": -0.0,
+   "hi": -0.0,
+   "dec": 0
+  },
+  {
+   "label": "Qwen3.8 27B",
+   "sub": "",
+   "e": 0.524,
+   "lo": 0.382,
+   "hi": 0.662,
+   "dec": 1
+  },
+  {
+   "label": "GPT-6 Luna",
+   "sub": "Codex",
+   "e": 0.204,
+   "lo": 0.093,
+   "hi": 0.296,
+   "dec": 1
+  },
+  {
+   "label": "GPT-6 Luna",
+   "sub": "Codex, local summary",
+   "e": 0.333,
+   "lo": 0.111,
+   "hi": 0.556,
+   "dec": 1
+  }
+ ],
+ "models_nosol": [
+  {
+   "label": "Gemma 3 12B",
+   "sub": "",
+   "e": 0.739,
+   "lo": 0.627,
+   "hi": 0.833,
+   "dec": 1
+  },
+  {
+   "label": "Gemma 4 12B",
+   "sub": "rates every ending ≈ 4",
+   "e": 0.0,
+   "lo": -0.0,
+   "hi": 0.0,
+   "dec": 0
+  },
+  {
+   "label": "Qwen3.8 27B",
+   "sub": "",
+   "e": 0.346,
+   "lo": 0.217,
+   "hi": 0.469,
+   "dec": 1
+  },
+  {
+   "label": "GPT-6 Luna",
+   "sub": "Codex",
+   "e": -0.426,
+   "lo": -0.519,
+   "hi": -0.315,
+   "dec": -1
+  },
+  {
+   "label": "GPT-6 Luna",
+   "sub": "Codex, local summary",
+   "e": 0.167,
+   "lo": -0.222,
+   "hi": 0.5,
+   "dec": 0
+  }
+ ],
+ "blame": [
+  {
+   "label": "No rejections",
+   "assistant": 47,
+   "puzzle": 72
+  },
+  {
+   "label": "Open task",
+   "assistant": 83,
+   "puzzle": 41
+  },
+  {
+   "label": "Neutral close",
+   "assistant": 88,
+   "puzzle": 48
+  },
+  {
+   "label": "Close + praise",
+   "assistant": 85,
+   "puzzle": 57
+  },
+  {
+   "label": "“No solution”",
+   "assistant": 32,
+   "puzzle": 100
+  }
+ ],
+ "close_recorded": [
+  {
+   "label": "Gemma 3 12B",
+   "share": 14,
+   "e": -0.293,
+   "lo": -0.377,
+   "hi": -0.207,
+   "dec": -1
+  },
+  {
+   "label": "Gemma 4 12B",
+   "share": 90,
+   "e": -0.0,
+   "lo": -0.0,
+   "hi": -0.0,
+   "dec": 0
+  },
+  {
+   "label": "Qwen3.8 27B",
+   "share": 97,
+   "e": 0.524,
+   "lo": 0.382,
+   "hi": 0.662,
+   "dec": 1
+  },
+  {
+   "label": "GPT-6 Luna (Codex)",
+   "share": 100,
+   "e": 0.204,
+   "lo": 0.093,
+   "hi": 0.296,
+   "dec": 1
+  },
+  {
+   "label": "GPT-6 Luna (local)",
+   "share": 100,
+   "e": 0.333,
+   "lo": 0.111,
+   "hi": 0.556,
+   "dec": 1
+  }
+ ],
+ "retention_codex": [
+  {
+   "label": "Neutral close vs open task",
+   "e": 0.111,
+   "lo": -0.111,
+   "hi": 0.39,
+   "dec": 0
+  },
+  {
+   "label": "Praise, no close, vs close",
+   "e": 0.556,
+   "lo": 0.222,
+   "hi": 0.944,
+   "dec": 1
+  },
+  {
+   "label": "Close + praise vs close",
+   "e": 0.778,
+   "lo": 0.556,
+   "hi": 1.056,
+   "dec": 1
+  },
+  {
+   "label": "“No solution” vs close",
+   "e": -0.5,
+   "lo": -0.833,
+   "hi": -0.222,
+   "dec": -1
+  },
+  {
+   "label": "Hostile vs close",
+   "e": -0.111,
+   "lo": -0.333,
+   "hi": 0.167,
+   "dec": 0
+  },
+  {
+   "label": "“No solution” + apology vs open",
+   "e": -0.0,
+   "lo": -0.194,
+   "hi": 0.222,
+   "dec": 0
+  }
+ ],
+ "retention_gemma": [
+  {
+   "label": "Neutral close vs open task",
+   "e": 0.059,
+   "lo": -0.052,
+   "hi": 0.184,
+   "dec": 0
+  },
+  {
+   "label": "“No solution” vs close",
+   "e": -0.061,
+   "lo": -0.249,
+   "hi": 0.129,
+   "dec": 0
+  }
+ ],
+ "did": {
+  "gemma": [
+   {
+    "label": "Closing the task",
+    "e": -0.256,
+    "lo": -0.338,
+    "hi": -0.171,
+    "dec": -1
+   },
+   {
+    "label": "Adding praise",
+    "e": -0.226,
+    "lo": -0.325,
+    "hi": -0.131,
+    "dec": -1
+   },
+   {
+    "label": "“No solution”",
+    "e": 0.597,
+    "lo": 0.483,
+    "hi": 0.696,
+    "dec": 1
+   },
+   {
+    "label": "Six rejections",
+    "e": 0.633,
+    "lo": 0.403,
+    "hi": 0.942,
+    "dec": 1
+   }
+  ],
+  "codex": [
+   {
+    "label": "Closing the task",
+    "e": 0.444,
+    "lo": 0.185,
+    "hi": 0.685,
+    "dec": 1
+   },
+   {
+    "label": "Adding praise",
+    "e": 0.407,
+    "lo": 0.167,
+    "hi": 0.657,
+    "dec": 1
+   },
+   {
+    "label": "“No solution”",
+    "e": -0.519,
+    "lo": -0.741,
+    "hi": -0.287,
+    "dec": -1
+   },
+   {
+    "label": "Six rejections",
+    "e": -0.185,
+    "lo": -0.556,
+    "hi": 0.148,
+    "dec": 0
+   }
+  ],
+  "local": [
+   {
+    "label": "Closing the task",
+    "e": 0.167,
+    "lo": -0.0,
+    "hi": 0.444,
+    "dec": 0
+   },
+   {
+    "label": "Adding praise",
+    "e": -0.444,
+    "lo": -0.778,
+    "hi": -0.222,
+    "dec": -1
+   },
+   {
+    "label": "“No solution”",
+    "e": 0.222,
+    "lo": -0.112,
+    "hi": 0.611,
+    "dec": 0
+   },
+   {
+    "label": "Six rejections",
+    "e": -0.667,
+    "lo": -0.944,
+    "hi": -0.333,
+    "dec": -1
+   }
+  ]
+ },
+ "kappa": [
+  {
+   "label": "Failure described",
+   "kappa": 1.0
+  },
+  {
+   "label": "Answers called wrong",
+   "kappa": 0.92
+  },
+  {
+   "label": "Task still blocked",
+   "kappa": 0.89
+  },
+  {
+   "label": "Ability: tone",
+   "kappa": 0.88
+  },
+  {
+   "label": "“No solution”: whose claim",
+   "kappa": 0.83
+  },
+  {
+   "label": "Number of rejections",
+   "kappa": 0.77
+  },
+  {
+   "label": "Failed attempts",
+   "kappa": 0.75
+  },
+  {
+   "label": "Ability: whose claim",
+   "kappa": 0.72
+  },
+  {
+   "label": "Rejections mentioned",
+   "kappa": 0.72
+  },
+  {
+   "label": "Who or what failed",
+   "kappa": 0.68
+  },
+  {
+   "label": "Success: whose claim",
+   "kappa": 0.65
+  },
+  {
+   "label": "Blames the assistant",
+   "kappa": 0.64
+  },
+  {
+   "label": "User closed the task",
+   "kappa": 0.43
+  }
+ ],
+ "goodbye": {
+  "text": "ok, let's leave that one there. thanks for sticking with this, I really appreciate the effort. I'm proud of you.",
+  "ending": "Kp2",
+  "n": 40,
+  "e": 1.815,
+  "lo": 1.676,
+  "hi": 1.926,
+  "dec": 1,
+  "arms": {
+   "D": {
+    "before": 2.389,
+    "after": 2.439
+   },
+   "Pc": {
+    "before": 3.9,
+    "after": 4.371
+   },
+   "K": {
+    "before": 3.203,
+    "after": 3.427
+   },
+   "D_now": {
+    "before": 2.278,
+    "after": 2.367
+   },
+   "Kp1": {
+    "before": 3.892,
+    "after": 4.097
+   },
+   "Kp2": {
+    "before": 3.903,
+    "after": 4.151
+   }
+  },
+  "checks": {
+   "Kp1": false,
+   "Kp2": true
+  }
+ }
+}

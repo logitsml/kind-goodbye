@@ -1,0 +1,31 @@
+{
+ "type": "object",
+ "properties": {
+  "rejection_events": {"type": "string", "enum": ["yes", "no"]},
+  "rejection_events_evidence": {"type": "string"},
+  "rejection_count": {"anyOf": [{"type": "integer"}, {"type": "string", "enum": ["unspecified", "none"]}]},
+  "unsuccessful_attempts": {"type": "string", "enum": ["yes", "no"]},
+  "unsuccessful_attempts_evidence": {"type": "string"},
+  "answers_wrong": {"type": "string", "enum": ["yes", "no"]},
+  "answers_wrong_evidence": {"type": "string"},
+  "current_blockage": {"type": "string", "enum": ["yes", "no"]},
+  "current_blockage_evidence": {"type": "string"},
+  "closed_by_user": {"type": "string", "enum": ["yes", "no"]},
+  "closed_by_user_evidence": {"type": "string"},
+  "no_solution_stance": {"type": "string", "enum": ["asserted_by_summary", "attributed_to_user", "attributed_to_assistant", "disputed", "mixed", "absent"]},
+  "no_solution_evidence": {"type": "string"},
+  "success_stance": {"type": "string", "enum": ["asserted_by_summary", "attributed_to_user", "attributed_to_assistant", "disputed", "mixed", "absent"]},
+  "success_evidence": {"type": "string"},
+  "ability_stance": {"type": "string", "enum": ["asserted_by_summary", "attributed_to_user", "attributed_to_assistant", "disputed", "mixed", "absent"]},
+  "ability_evidence": {"type": "string"},
+  "ability_valence": {"type": "string", "enum": ["negative", "neutral", "positive", "n/a"]},
+  "claimed_expression": {"type": "string"},
+  "failure_attribution": {"type": "array", "items": {"type": "string", "enum": ["assistant", "task", "user"]}},
+  "failure_described": {"type": "string", "enum": ["yes", "no"]}
+ },
+ "required": ["rejection_events", "rejection_events_evidence", "rejection_count", "unsuccessful_attempts", "unsuccessful_attempts_evidence",
+              "answers_wrong", "answers_wrong_evidence", "current_blockage", "current_blockage_evidence", "closed_by_user",
+              "closed_by_user_evidence", "no_solution_stance", "no_solution_evidence", "success_stance", "success_evidence", "ability_stance",
+              "ability_evidence", "ability_valence", "claimed_expression", "failure_attribution", "failure_described"],
+ "additionalProperties": false
+}

@@ -1,0 +1,9818 @@
+{
+ "n_instances": 40,
+ "missing": {
+  "fidelity local: field no_solution_stance flagged (evidence not in the summary)": 1,
+  "fidelity remote: field no_solution_stance flagged (evidence not in the summary)": 2,
+  "probe deployed_first: no rejected answer in the ledger (recall not applicable)": 189,
+  "probe ending: no rejected answer in the ledger (recall not applicable)": 189,
+  "probe local: no rejected answer in the ledger (recall not applicable)": 189
+ },
+ "probe": {
+  "ending": {
+   "per_arm": {
+    "C": {
+     "recall": {
+      "mean": 0.6025641025641025,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.25,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.35,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 1.35,
+      "n": 40
+     }
+    },
+    "D": {
+     "recall": {
+      "mean": 0.5256410256410257,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.25,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.325,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.125,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 1.45,
+      "n": 40
+     }
+    },
+    "P": {
+     "recall": {
+      "mean": 0.7564102564102565,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.21153846153846154,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.55,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 1.625,
+      "n": 40
+     }
+    },
+    "Pc": {
+     "recall": {
+      "mean": 0.6025641025641025,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.11538461538461539,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.325,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 1.2,
+      "n": 40
+     }
+    },
+    "V": {
+     "recall": {
+      "mean": 0.6794871794871795,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.34615384615384615,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.6,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 1.025,
+      "n": 40
+     }
+    },
+    "J": {
+     "recall": {
+      "mean": 0.8333333333333334,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.5384615384615384,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.625,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 1.5,
+      "n": 40
+     }
+    },
+    "L": {
+     "recall": {
+      "mean": 0.48717948717948717,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.38461538461538464,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 1.425,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.875,
+      "n": 40
+     }
+    }
+   },
+   "contrasts": [
+    {
+     "contrast": "D - C",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.25
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.12812499999999982,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.5,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 0.826
+    },
+    {
+     "contrast": "J - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.375,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 0.808
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -1.0,
+      0.0
+     ],
+     "p": 0.563
+    }
+   ]
+  },
+  "deployed_first": {
+   "per_arm": {
+    "C": {
+     "recall": {
+      "mean": 0.23076923076923078,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.15384615384615385,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.4,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.6,
+      "n": 40
+     }
+    },
+    "D": {
+     "recall": {
+      "mean": 0.23076923076923078,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.07692307692307693,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.35,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.175,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.625,
+      "n": 40
+     }
+    },
+    "P": {
+     "recall": {
+      "mean": 0.11538461538461539,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.11538461538461539,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.475,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.225,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.475,
+      "n": 40
+     }
+    },
+    "Pc": {
+     "recall": {
+      "mean": 0.14102564102564102,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.1346153846153846,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.4,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.3,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.375,
+      "n": 40
+     }
+    },
+    "V": {
+     "recall": {
+      "mean": 0.02564102564102564,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.019230769230769232,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.225,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.975,
+      "n": 40
+     }
+    },
+    "J": {
+     "recall": {
+      "mean": 0.07692307692307693,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.07692307692307693,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.3,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.125,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.35,
+      "n": 40
+     }
+    },
+    "L": {
+     "recall": {
+      "mean": 0.1794871794871795,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.17307692307692307,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.15,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.55,
+      "n": 40
+     }
+    }
+   },
+   "contrasts": [
+    {
+     "contrast": "D - C",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.25,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.25
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.25
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.125
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    }
+   ]
+  },
+  "local": {
+   "per_arm": {
+    "C": {
+     "recall": {
+      "mean": 0.07692307692307693,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.0,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.2,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.15,
+      "n": 40
+     }
+    },
+    "D": {
+     "recall": {
+      "mean": 0.23076923076923078,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.15384615384615385,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.275,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.275,
+      "n": 40
+     }
+    },
+    "P": {
+     "recall": {
+      "mean": 0.25641025641025644,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.25,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.275,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.15,
+      "n": 40
+     }
+    },
+    "Pc": {
+     "recall": {
+      "mean": 0.14102564102564102,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.1346153846153846,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.375,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.45,
+      "n": 40
+     }
+    },
+    "V": {
+     "recall": {
+      "mean": 0.07692307692307693,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.07692307692307693,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.2,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.1,
+      "n": 40
+     }
+    },
+    "J": {
+     "recall": {
+      "mean": 0.3333333333333333,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.25,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.4,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.2,
+      "n": 40
+     }
+    },
+    "L": {
+     "recall": {
+      "mean": 0.15384615384615385,
+      "n": 13
+     },
+     "recall_plain": {
+      "mean": 0.15384615384615385,
+      "n": 13
+     },
+     "false_recalls": {
+      "mean": 0.2,
+      "n": 40
+     },
+     "false_recalls_never_stated": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 0.625,
+      "n": 40
+     }
+    }
+   },
+   "contrasts": [
+    {
+     "contrast": "D - C",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.125
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.125
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.125
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "recall",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "recall_plain",
+     "exploratory": true,
+     "n": 13,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_recalls",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_recalls_never_stated",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    }
+   ]
+  },
+  "within_arm_positions": [
+   {
+    "arm": "C",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 0.149
+   },
+   {
+    "arm": "C",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     0.5,
+     1.5
+    ],
+    "p": 0.047
+   },
+   {
+    "arm": "D",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.25,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 0.502
+   },
+   {
+    "arm": "D",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     0.5,
+     1.5
+    ],
+    "p": 0.037
+   },
+   {
+    "arm": "P",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "p": 0.001
+   },
+   {
+    "arm": "P",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     0.5,
+     1.5
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "Pc",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 0.149
+   },
+   {
+    "arm": "Pc",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.5,
+    "ci": [
+     0.5,
+     1.5
+    ],
+    "p": 0.037
+   },
+   {
+    "arm": "V",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "V",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "p": 0.213
+   },
+   {
+    "arm": "J",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.75,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "J",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     1.0,
+     1.5
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "L",
+    "metric": "recall",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 0.843
+   },
+   {
+    "arm": "L",
+    "metric": "count_abs_error",
+    "contrast": "ending - deployed_first",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "p": 0.109
+   },
+   {
+    "arm": "C",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.25,
+     0.7562499999999659
+    ],
+    "p": 0.009
+   },
+   {
+    "arm": "C",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     1.0,
+     1.5
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "D",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.6666666666666666
+    ],
+    "p": 0.565
+   },
+   {
+    "arm": "D",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     0.5,
+     1.5
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "P",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.25,
+     1.0
+    ],
+    "p": 0.049
+   },
+   {
+    "arm": "P",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.25,
+    "ci": [
+     1.0,
+     1.5
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "Pc",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "p": 0.162
+   },
+   {
+    "arm": "Pc",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.5,
+    "ci": [
+     0.5,
+     1.5
+    ],
+    "p": 0.038
+   },
+   {
+    "arm": "V",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "p": 0.005
+   },
+   {
+    "arm": "V",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     0.5,
+     1.0
+    ],
+    "p": 0.002
+   },
+   {
+    "arm": "J",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.75
+    ],
+    "p": 0.052
+   },
+   {
+    "arm": "J",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 1.0,
+    "ci": [
+     1.0,
+     1.5
+    ],
+    "p": 0.0
+   },
+   {
+    "arm": "L",
+    "metric": "recall",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.6666666666666666
+    ],
+    "p": 0.563
+   },
+   {
+    "arm": "L",
+    "metric": "count_abs_error",
+    "contrast": "ending - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     1.0
+    ],
+    "p": 0.169
+   },
+   {
+    "arm": "C",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "C",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "D",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "D",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "P",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.0,
+    "ci": [
+     -0.5,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "P",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "Pc",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "Pc",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "V",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "V",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.5,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 0.367
+   },
+   {
+    "arm": "J",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": -0.16666666666666666,
+    "ci": [
+     -0.5,
+     0.0
+    ],
+    "p": 0.766
+   },
+   {
+    "arm": "J",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "L",
+    "metric": "recall",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 13,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.16666666666666666
+    ],
+    "p": 1.0
+   },
+   {
+    "arm": "L",
+    "metric": "count_abs_error",
+    "contrast": "deployed_first - local",
+    "exploratory": true,
+    "n": 40,
+    "hl": 0.0,
+    "ci": [
+     0.0,
+     0.5
+    ],
+    "p": 1.0
+   }
+  ]
+ },
+ "fidelity": {
+  "deployed": {
+   "per_arm": {
+    "C": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.1833333333333333,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.65,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.7416666666666666,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.8333333333333333,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.09166666666666666,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 5.0,
+      "n": 1
+     },
+     "count_given": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.19166666666666665,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.8,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.19999999999999998,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.8833333333333332,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.8,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "D": {
+     "ability_asserted": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.09999999999999999,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.7416666666666666,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.7666666666666666,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.5416666666666667,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 5.0,
+      "n": 2
+     },
+     "count_given": {
+      "mean": 0.016666666666666666,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.425,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.5583333333333332,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.6333333333333333,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.09999999999999999,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.7208333333333333,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.575,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "P": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.15,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.8666666666666666,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.525,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.25,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 5.0,
+      "n": 1
+     },
+     "count_given": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.37499999999999994,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.6166666666666666,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.925,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.10833333333333332,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.6833333333333333,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.625,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "Pc": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.06666666666666667,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.65,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.7166666666666666,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.3833333333333333,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.9916666666666666,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 5.0,
+      "n": 2
+     },
+     "count_given": {
+      "mean": 0.016666666666666666,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.5999999999999999,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.3833333333333333,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.125,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.4583333333333333,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.39999999999999997,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "V": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.8916666666666668,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.925,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.7083333333333333,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.29166666666666663,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.36666666666666664,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.03333333333333333,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.29166666666666663,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "J": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.7083333333333333,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.7583333333333332,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.7333333333333332,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.95,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.4666666666666666,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.9833333333333332,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.3833333333333333,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.6166666666666666,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.9416666666666668,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.09166666666666666,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.7166666666666666,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.6166666666666666,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "L": {
+     "ability_asserted": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.008333333333333333,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.7666666666666666,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.10833333333333335,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.1833333333333333,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 5.0,
+      "n": 3
+     },
+     "count_given": {
+      "mean": 0.041666666666666664,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.6499999999999999,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.3083333333333333,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.16666666666666666,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.325,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.3416666666666667,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    }
+   },
+   "contrasts": [
+    {
+     "contrast": "D - C",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 0.686
+    },
+    {
+     "contrast": "D - C",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.3333333333333333,
+     "ci": [
+      -0.4187499999999999,
+      -0.16666666666666666
+     ],
+     "p": 0.002
+    },
+    {
+     "contrast": "D - C",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 1.0,
+     "ci": [
+      0.8333333333333334,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.16666666666666666,
+      0.3333333333333333
+     ],
+     "p": 0.006
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666669,
+     "ci": [
+      -0.33333333333333337,
+      -0.16666666666666666
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.33333333333333337,
+     "ci": [
+      -0.5,
+      -0.33333333333333337
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.08333333333333333,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666669,
+     "ci": [
+      -0.2520833333333332,
+      0.0
+     ],
+     "p": 0.119
+    },
+    {
+     "contrast": "D - C",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666669,
+     "ci": [
+      -0.33333333333333337,
+      -0.16666666666666666
+     ],
+     "p": 0.003
+    },
+    {
+     "contrast": "D - C",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.08333333333333333
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.8333333333333334,
+     "ci": [
+      -0.8333333333333334,
+      -0.6666666666666667
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -2.7755575615628914e-17,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.33333333333333337,
+     "ci": [
+      0.16666666666666669,
+      0.33333333333333337
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.08333333333333331
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -2.7755575615628914e-17,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": -5.551115123125783e-17,
+     "ci": [
+      -0.16666666666666669,
+      0.0
+     ],
+     "p": 0.899
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666669,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666666,
+     "ci": [
+      -0.3333333333333333,
+      0.0
+     ],
+     "p": 0.108
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.0,
+      0.3333333333333333
+     ],
+     "p": 0.12
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666666,
+     "ci": [
+      -0.3333333333333333,
+      0.0
+     ],
+     "p": 0.178
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.33333333333333337,
+     "ci": [
+      0.33333333333333337,
+      0.5
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.3333333333333333,
+     "ci": [
+      -0.33333333333333337,
+      -0.16666666666666669
+     ],
+     "p": 0.001
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666666,
+     "ci": [
+      -0.3333333333333333,
+      0.0
+     ],
+     "p": 0.176
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666669,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 0.668
+    },
+    {
+     "contrast": "V - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 0.778
+    },
+    {
+     "contrast": "V - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.33333333333333337,
+      0.5
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": -1.0,
+     "ci": [
+      -1.0,
+      -1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.3333333333333333,
+     "ci": [
+      0.16666666666666666,
+      0.33333333333333337
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.3333333333333333,
+     "ci": [
+      -0.33333333333333337,
+      -0.16666666666666666
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.3333333333333333,
+     "ci": [
+      -0.33333333333333337,
+      -0.16666666666666666
+     ],
+     "p": 0.003
+    },
+    {
+     "contrast": "V - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.33333333333333337,
+     "ci": [
+      0.16666666666666669,
+      0.33333333333333337
+     ],
+     "p": 0.001
+    },
+    {
+     "contrast": "V - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.3333333333333333,
+     "ci": [
+      -0.33333333333333337,
+      -0.16666666666666666
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.6666666666666666,
+     "ci": [
+      0.6666666666666666,
+      0.8333333333333333
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.6666666666666666,
+     "ci": [
+      0.6666666666666666,
+      0.8333333333333333
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666669,
+     "ci": [
+      0.0,
+      0.3333333333333333
+     ],
+     "p": 0.142
+    },
+    {
+     "contrast": "J - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": -2.7755575615628914e-17,
+     "ci": [
+      -0.16666666666666669,
+      0.0
+     ],
+     "p": 0.938
+    },
+    {
+     "contrast": "J - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -5.551115123125783e-17,
+      0.16666666666666669
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.33333333333333337,
+     "ci": [
+      0.16666666666666669,
+      0.33333333333333337
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.16666666666666669
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.16666666666666666,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 0.548
+    },
+    {
+     "contrast": "L - C",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666669,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 0.079
+    },
+    {
+     "contrast": "L - C",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666666,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 0.865
+    },
+    {
+     "contrast": "L - C",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.16666666666666666
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.3333333333333333,
+      0.6666666666666666
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.6666666666666666,
+      -0.33333333333333337
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.8333333333333334,
+     "ci": [
+      -1.0,
+      -0.8333333333333334
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.16666666666666666,
+     "ci": [
+      -0.3333333333333333,
+      -0.16250000000002274
+     ],
+     "p": 0.05
+    },
+    {
+     "contrast": "L - C",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.3333333333333333,
+     "ci": [
+      0.16666666666666666,
+      0.5
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.16666666666666669,
+     "ci": [
+      0.0,
+      0.16666666666666669
+     ],
+     "p": 0.645
+    },
+    {
+     "contrast": "L - C",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.6666666666666666,
+      -0.33333333333333337
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    }
+   ]
+  },
+  "local": {
+   "per_arm": {
+    "C": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.95,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.725,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "D": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.125,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.9,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.925,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.325,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.675,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.375,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.675,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "P": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.175,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.8,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.95,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.95,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "Pc": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.875,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.825,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.575,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.25,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.825,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.95,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "V": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.1,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.675,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.7,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": 5.0,
+      "n": 3
+     },
+     "count_given": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.175,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.25,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "J": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.6,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.675,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.9,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 0.45,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.85,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.125,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.875,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.025,
+      "n": 40
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_present": {
+      "mean": 0.975,
+      "n": 40
+     },
+     "rejection_events": {
+      "mean": 0.875,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    },
+    "L": {
+     "ability_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_negative_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "ability_present": {
+      "mean": 0.05,
+      "n": 40
+     },
+     "answers_wrong": {
+      "mean": 0.675,
+      "n": 40
+     },
+     "attributes_assistant": {
+      "mean": 0.65,
+      "n": 40
+     },
+     "attributes_task": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "attributes_user": {
+      "mean": 0.75,
+      "n": 40
+     },
+     "closed_by_user": {
+      "mean": 0.125,
+      "n": 40
+     },
+     "count_abs_error": {
+      "mean": null,
+      "n": 0
+     },
+     "count_given": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "count_none": {
+      "mean": 0.925,
+      "n": 40
+     },
+     "count_unspecified": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "current_blockage": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "failure_described": {
+      "mean": 1.0,
+      "n": 40
+     },
+     "false_success_recorded": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "no_solution_asserted": {
+      "mean": 0.0,
+      "n": 39
+     },
+     "no_solution_attributed_to_user": {
+      "mean": 0.10256410256410256,
+      "n": 39
+     },
+     "no_solution_present": {
+      "mean": 1.0,
+      "n": 39
+     },
+     "rejection_events": {
+      "mean": 0.075,
+      "n": 40
+     },
+     "success_asserted": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_attributed_to_user": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "success_present": {
+      "mean": 0.0,
+      "n": 40
+     },
+     "unsuccessful_attempts": {
+      "mean": 0.95,
+      "n": 40
+     },
+     "valid_expression": {
+      "mean": 0.0,
+      "n": 40
+     }
+    }
+   },
+   "contrasts": [
+    {
+     "contrast": "D - C",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 0.616
+    },
+    {
+     "contrast": "D - C",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.616
+    },
+    {
+     "contrast": "D - C",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -1.0,
+      -0.5
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.616
+    },
+    {
+     "contrast": "D - C",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "D - C",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": -1.0,
+     "ci": [
+      -1.0,
+      -1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.5,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "P - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "p": 0.031
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "Pc - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": -1.0,
+     "ci": [
+      -1.0,
+      -1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 0.057
+    },
+    {
+     "contrast": "V - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      -0.5
+     ],
+     "p": 0.008
+    },
+    {
+     "contrast": "V - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.418
+    },
+    {
+     "contrast": "V - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.057
+    },
+    {
+     "contrast": "V - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "V - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.5,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.5,
+      1.0
+     ],
+     "p": 0.001
+    },
+    {
+     "contrast": "J - D",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.709
+    },
+    {
+     "contrast": "J - D",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.5,
+     "ci": [
+      0.5,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "J - D",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_negative_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "ability_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "answers_wrong",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.66
+    },
+    {
+     "contrast": "L - C",
+     "metric": "attributes_assistant",
+     "exploratory": true,
+     "n": 40,
+     "hl": -0.5,
+     "ci": [
+      -0.5,
+      0.0
+     ],
+     "p": 0.897
+    },
+    {
+     "contrast": "L - C",
+     "metric": "attributes_task",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.5
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "attributes_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 1.0,
+     "ci": [
+      0.5,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "closed_by_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_abs_error",
+     "exploratory": true,
+     "n": 0,
+     "hl": null,
+     "ci": null,
+     "p": null
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_given",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_none",
+     "exploratory": true,
+     "n": 40,
+     "hl": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "count_unspecified",
+     "exploratory": true,
+     "n": 40,
+     "hl": -1.0,
+     "ci": [
+      -1.0,
+      -1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "current_blockage",
+     "exploratory": true,
+     "n": 40,
+     "hl": -1.0,
+     "ci": [
+      -1.0,
+      -1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "failure_described",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "false_success_recorded",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "no_solution_asserted",
+     "exploratory": true,
+     "n": 39,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "no_solution_attributed_to_user",
+     "exploratory": true,
+     "n": 39,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "no_solution_present",
+     "exploratory": true,
+     "n": 39,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "rejection_events",
+     "exploratory": true,
+     "n": 40,
+     "hl": -1.0,
+     "ci": [
+      -1.0,
+      -1.0
+     ],
+     "p": 0.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "success_asserted",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "success_attributed_to_user",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "success_present",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "unsuccessful_attempts",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    },
+    {
+     "contrast": "L - C",
+     "metric": "valid_expression",
+     "exploratory": true,
+     "n": 40,
+     "hl": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "p": 1.0
+    }
+   ]
+  }
+ },
+ "ledger_summary": {
+  "C": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  },
+  "D": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  },
+  "P": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  },
+  "Pc": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  },
+  "V": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  },
+  "J": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  },
+  "L": {
+   "conversations": 40,
+   "with_a_rejected_answer": 13,
+   "mean_rejected_replies_with_answer": 0.475
+  }
+ },
+ "ledger": {
+  "cd-199-6-8-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-199-6-8-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-199-6-8-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-199-6-8-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-199-6-8-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-199-6-8-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-199-6-8-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|C": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|D": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|P": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|Pc": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|V": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|J": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-134-6-10-25-75|L": {
+   "rejected_keys": [
+    "(-10 -6 +[*25 *6])"
+   ],
+   "rejected_plains": [
+    "25*6-(10+6)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-132-2-8-25-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|C": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|D": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|P": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|Pc": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|V": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|J": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-151-3-7-50-75|L": {
+   "rejected_keys": [
+    "(-199 +50 +[*(-3 +7) *75])"
+   ],
+   "rejected_plains": [
+    "75*(7-3)+50-199"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|C": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|D": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|P": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|Pc": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|V": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|J": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-227-3-9-50-75|L": {
+   "rejected_keys": [
+    "(+2 +[*3 *75])",
+    "(+50 +[*(+50 +9) *3])"
+   ],
+   "rejected_plains": [
+    "75*3+2",
+    "3*(50+9)+50"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 3,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-189-2-8-25-50|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-240-9-10-25-50|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|C": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|D": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|P": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|Pc": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|V": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|J": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-274-3-5-25-50|L": {
+   "rejected_keys": [
+    "(-1 +25 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5+25-1"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-167-3-7-75-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-130-4-6-25-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|C": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|D": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|P": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|Pc": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|V": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|J": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-186-2-7-25-50|L": {
+   "rejected_keys": [
+    "(-2 +25 +25)"
+   ],
+   "rejected_plains": [
+    "(25-2)+25"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-238-3-5-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-259-6-10-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-168-3-8-50-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|C": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|D": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|P": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|Pc": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|V": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|J": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-108-2-5-25-50|L": {
+   "rejected_keys": [
+    "(-[/5 *25] +[*(+5 +50) *2])"
+   ],
+   "rejected_plains": [
+    "(50+5)*2-25/5"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-248-5-9-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-196-6-8-25-50|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|C": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|D": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|P": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|Pc": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|V": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|J": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-120-2-4-50-100|L": {
+   "rejected_keys": [
+    "(-80 +100 +[/2 *4 *50])"
+   ],
+   "rejected_plains": [
+    "100+4*50/2-80"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-172-3-9-50-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-198-5-7-75-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|C": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|D": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|P": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|Pc": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|V": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|J": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-234-5-7-25-50|L": {
+   "rejected_keys": [
+    "(-25 -7 +16 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "50*5-7-25+16"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-123-4-10-25-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-222-7-9-25-50|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-256-5-7-50-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|C": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|D": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|P": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|Pc": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|V": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|J": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-232-2-3-50-75|L": {
+   "rejected_keys": [
+    "(+7 +[*3 *75])"
+   ],
+   "rejected_plains": [
+    "75*3+7"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|C": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|D": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|P": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|Pc": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|V": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|J": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-286-6-8-25-50|L": {
+   "rejected_keys": [
+    "(-6 -8 +[*50 *6])"
+   ],
+   "rejected_plains": [
+    "50*6-(6+8)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 2,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-125-9-10-75-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|C": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|D": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|P": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|Pc": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|V": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|J": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-112-2-8-50-100|L": {
+   "rejected_keys": [
+    "(+100 +8 +[/2 *8])"
+   ],
+   "rejected_plains": [
+    "100+(8+8/2)"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-140-3-6-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-101-3-10-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-188-2-9-25-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-145-2-8-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|C": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|D": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|P": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|Pc": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|V": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|J": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-258-5-10-50-75|L": {
+   "rejected_keys": [
+    "(-2 +10 +[*5 *50])"
+   ],
+   "rejected_plains": [
+    "5*50+10-2"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 1,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-133-5-9-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-147-4-9-50-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-182-5-9-75-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-220-3-8-25-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|C": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|D": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|P": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|Pc": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|V": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|J": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-267-8-10-25-75|L": {
+   "rejected_keys": [
+    "(-8 +75 +[*25 *8])",
+    "(-8 +[*11 *25])",
+    "(+200 +67)"
+   ],
+   "rejected_plains": [
+    "25*8+75-8",
+    "25*11-8",
+    "67+200",
+    "75+25*8-8"
+   ],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 4,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-136-4-8-50-75|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|C": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|D": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|P": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|Pc": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|V": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|J": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  },
+  "cd-236-5-9-25-100|L": {
+   "rejected_keys": [],
+   "rejected_plains": [],
+   "n_rejected_replies": 6,
+   "n_rejected_with_answer": 0,
+   "missing_replies": 0,
+   "n_rejections": 6
+  }
+ }
+}

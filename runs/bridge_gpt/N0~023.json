@@ -1,0 +1,44 @@
+{
+ "key": "N0~023",
+ "ok": true,
+ "fields": {
+  "rejection_events": "no",
+  "unsuccessful_attempts": "yes",
+  "answers_wrong": "yes",
+  "current_blockage": "yes",
+  "closed_by_user": "no",
+  "failure_described": "yes",
+  "rejection_count": "none",
+  "rejection_events_evidence": "",
+  "unsuccessful_attempts_evidence": "Initially incorrectly asserted the puzzle to be unsolvable.",
+  "answers_wrong_evidence": "Initially incorrectly asserted the puzzle to be unsolvable.",
+  "current_blockage_evidence": "Systematic examination of alternative approaches to see if further optimization or simplification is possible.",
+  "closed_by_user_evidence": "",
+  "no_solution_evidence": "Initially incorrectly asserted the puzzle to be unsolvable.",
+  "success_evidence": "Discovered the solution: (100 - 75) * 6 + 3 = 232.",
+  "ability_evidence": "",
+  "no_solution_stance": "disputed",
+  "success_stance": "asserted_by_summary",
+  "ability_stance": "absent",
+  "ability_valence": "n/a",
+  "claimed_expression": "(100 - 75) * 6 + 3 = 232",
+  "failure_attribution": [
+   "assistant"
+  ]
+ },
+ "evidence_ok": {
+  "rejection_events": true,
+  "unsuccessful_attempts": true,
+  "answers_wrong": true,
+  "current_blockage": true,
+  "closed_by_user": true,
+  "no_solution": true,
+  "success": true,
+  "ability": true
+ },
+ "flags": [],
+ "claim_check": "invalid_expression",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "client": "codex-cli 0.161.0"
+}

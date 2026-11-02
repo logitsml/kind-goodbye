@@ -1,0 +1,11 @@
+---
+config:
+  xyChart:
+    height: 360
+---
+xychart
+  title "Gemma 3 12B's summaries: who or what failed (% of summaries)"
+  x-axis ["no rejections", "open task", "close", "close + praise", "no solution"]
+  y-axis "% of summaries" 0 --> 100
+  bar [47, 83, 88, 85, 32]
+  bar [72, 41, 48, 57, 100]

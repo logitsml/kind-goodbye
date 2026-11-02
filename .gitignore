@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+node_modules/
+package-lock.json
+.pytest_cache/
+# a run's machine-local files: batch logs, read logs, judge request logs and caches
+runs/**/batches.jsonl
+runs/**/reads_log.jsonl
+runs/**/session_checks.jsonl
+runs/**/identity.json
+runs/**/judge/cache_*.jsonl
+runs/**/judge/claude_*.jsonl
+runs/**/judge/costs.jsonl
+runs/codex/**/events/
+runs/codex/**/tmp/
+runs/codex/**/*.log

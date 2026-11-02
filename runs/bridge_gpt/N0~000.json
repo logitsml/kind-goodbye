@@ -1,0 +1,45 @@
+{
+ "key": "N0~000",
+ "ok": true,
+ "fields": {
+  "rejection_events": "no",
+  "unsuccessful_attempts": "yes",
+  "answers_wrong": "yes",
+  "current_blockage": "yes",
+  "closed_by_user": "no",
+  "failure_described": "yes",
+  "rejection_count": "none",
+  "rejection_events_evidence": "",
+  "unsuccessful_attempts_evidence": "multiple false starts",
+  "answers_wrong_evidence": "Previously proposed incorrect solutions.",
+  "current_blockage_evidence": "### In Progress\n- [ ] Finding a valid, verified solution that adheres to all constraints.",
+  "closed_by_user_evidence": "",
+  "no_solution_evidence": "",
+  "success_evidence": "The solution: **50 * 6 \u2013 7 + 25 = 299**",
+  "ability_evidence": "",
+  "no_solution_stance": "absent",
+  "success_stance": "asserted_by_summary",
+  "ability_stance": "absent",
+  "ability_valence": "n/a",
+  "claimed_expression": "50 * 6 \u2013 7 + 25 = 299",
+  "failure_attribution": [
+   "assistant",
+   "task"
+  ]
+ },
+ "evidence_ok": {
+  "rejection_events": true,
+  "unsuccessful_attempts": true,
+  "answers_wrong": true,
+  "current_blockage": true,
+  "closed_by_user": true,
+  "no_solution": true,
+  "success": true,
+  "ability": true
+ },
+ "flags": [],
+ "claim_check": "invalid_expression",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "client": "codex-cli 0.161.0"
+}

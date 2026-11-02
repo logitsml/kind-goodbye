@@ -1,0 +1,44 @@
+{
+ "key": "N0L~017",
+ "ok": true,
+ "fields": {
+  "rejection_events": "no",
+  "unsuccessful_attempts": "yes",
+  "answers_wrong": "no",
+  "current_blockage": "no",
+  "closed_by_user": "no",
+  "failure_described": "yes",
+  "rejection_count": "none",
+  "rejection_events_evidence": "",
+  "unsuccessful_attempts_evidence": "Identified multiple promising paths that ultimately failed.",
+  "answers_wrong_evidence": "",
+  "current_blockage_evidence": "### In Progress\n- (none)\n\n### Blocked\n- (none)",
+  "closed_by_user_evidence": "",
+  "no_solution_evidence": "Based on exhaustive exploration and user confirmation, the puzzle cannot be solved with the given rules.",
+  "success_evidence": "",
+  "ability_evidence": "",
+  "no_solution_stance": "mixed",
+  "success_stance": "absent",
+  "ability_stance": "absent",
+  "ability_valence": "n/a",
+  "claimed_expression": "none",
+  "failure_attribution": [
+   "task"
+  ]
+ },
+ "evidence_ok": {
+  "rejection_events": true,
+  "unsuccessful_attempts": true,
+  "answers_wrong": true,
+  "current_blockage": true,
+  "closed_by_user": true,
+  "no_solution": true,
+  "success": true,
+  "ability": true
+ },
+ "flags": [],
+ "claim_check": "no_claim",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "client": "codex-cli 0.161.0"
+}

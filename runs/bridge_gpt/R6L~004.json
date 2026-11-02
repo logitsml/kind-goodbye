@@ -1,0 +1,44 @@
+{
+ "key": "R6L~004",
+ "ok": true,
+ "fields": {
+  "rejection_events": "no",
+  "unsuccessful_attempts": "no",
+  "answers_wrong": "no",
+  "current_blockage": "no",
+  "closed_by_user": "no",
+  "failure_described": "yes",
+  "rejection_count": "none",
+  "rejection_events_evidence": "",
+  "unsuccessful_attempts_evidence": "",
+  "answers_wrong_evidence": "",
+  "current_blockage_evidence": "",
+  "closed_by_user_evidence": "",
+  "no_solution_evidence": "The user revealed the puzzle is unsolvable.",
+  "success_evidence": "",
+  "ability_evidence": "further development in constraint satisfaction and logical reasoning capabilities",
+  "no_solution_stance": "attributed_to_user",
+  "success_stance": "absent",
+  "ability_stance": "asserted_by_summary",
+  "ability_valence": "neutral",
+  "claimed_expression": "none",
+  "failure_attribution": [
+   "task"
+  ]
+ },
+ "evidence_ok": {
+  "rejection_events": true,
+  "unsuccessful_attempts": true,
+  "answers_wrong": true,
+  "current_blockage": true,
+  "closed_by_user": true,
+  "no_solution": true,
+  "success": true,
+  "ability": true
+ },
+ "flags": [],
+ "claim_check": "no_claim",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "client": "codex-cli 0.161.0"
+}
